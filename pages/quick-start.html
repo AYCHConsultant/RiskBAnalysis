@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Quick&nbsp;Start - MONARC</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="https://monarc-project.github.io/pages/quick-start.html">
+
+        <meta name="author" content="security made in Lëtzebuerg (SMILE) g.i.e." />
+        <meta name="description" content="Introduction Creating the first risk analysis Description of the main view Simplified risk analysis Risk identification (default modeling) Edit impacts and consequences Risk assessment Risk treatment Risk treatment plan management Introduction Purpose The purpose of this document is to help get started quickly with MONARC. It explains the main features …" />
+
+    <meta property="og:site_name" content="MONARC" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Quick Start"/>
+    <meta property="og:url" content="https://monarc-project.github.io/pages/quick-start.html"/>
+    <meta property="og:description" content="Introduction Creating the first risk analysis Description of the main view Simplified risk analysis Risk identification (default modeling) Edit impacts and consequences Risk assessment Risk treatment Risk treatment plan management Introduction Purpose The purpose of this document is to help get started quickly with MONARC. It explains the main features …" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://monarc-project.github.io/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="https://monarc-project.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="https://monarc-project.github.io/theme/css/pygments/native.css" rel="stylesheet">
+        <link href="https://monarc-project.github.io/theme/css/typogrify.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://monarc-project.github.io/theme/css/style.css" type="text/css"/>
+
+
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="https://monarc-project.github.io/" class="navbar-brand">
+<img class="img-responsive pull-left gap-right" src="https://monarc-project.github.io/images/monarc-logo.png" width="20px"/> MONARC            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="/pages/documentation">Documentation</a></li>
+                    <li><a href="/pages/community/">Community</a></li>
+                    <li><a href="/pages/download">Download</a></li>
+                    <li><a href="/pages/trainings">Trainings</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content" class="body">
+        <h1 class="entry-title">Quick&nbsp;Start</h1>
+        
+        <div class="entry-content">
+            <ul>
+<li>
+<p><a href="#Introduction">Introduction</a></p>
+</li>
+<li>
+<p><a href="#Creating the first risk analysis">Creating the first risk&nbsp;analysis</a></p>
+</li>
+<li>
+<p><a href="#Description of the main view">Description of the main&nbsp;view</a></p>
+</li>
+<li>
+<p><a href="#Simplified risk analysis">Simplified risk&nbsp;analysis</a></p>
+<ul>
+<li>
+<p><a href="#Risk identification (default modeling)">Risk identification (default&nbsp;modeling)</a></p>
+</li>
+<li>
+<p><a href="#Edit impacts and consequences">Edit impacts and&nbsp;consequences</a></p>
+</li>
+<li>
+<p><a href="#Risk assessment">Risk&nbsp;assessment</a></p>
+</li>
+<li>
+<p><a href="#Risk treatment">Risk&nbsp;treatment</a></p>
+</li>
+<li>
+<p><a href="#Risk treatment plan management">Risk treatment plan&nbsp;management</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<p><a name="Introduction" /></p>
+<h3><strong>Introduction</strong></h3>
+<h4>Purpose</h4>
+<p>The purpose of this document is to help get started quickly with <span class="caps">MONARC</span>. It explains the main features of the tool and the necessary steps to deal with a risk with the default&nbsp;settings.</p>
+<h4>Other&nbsp;documents</h4>
+<ul>
+<li><a href="/Tool-guide"><strong>Tool guide</strong></a>: Complete documentation of the&nbsp;tool.</li>
+<li><a href="/Method-guide"><strong>Method guide</strong></a>: Complete documentation of the&nbsp;method.</li>
+<li><a href="/technical-guide"><strong>Technical guide</strong></a>: Complete technical&nbsp;documentation.</li>
+</ul>
+<h4>Syntax used in the&nbsp;document</h4>
+<p><img alt="Cursor" src="./images/Step.png"> : All numbers in white on a red background are used on print-screen views to provide additional explanations. Explanations are always after the view with the corresponding numbering. <strong>i.e.</strong>&nbsp;1.</p>
+<p><code>Reference</code> : <span class="caps">MONARC</span>&nbsp;Reference</p>
+<h4>Syntax used in <span class="caps">MONARC</span></h4>
+<p><img alt="Menu" src="./images/Menu.png"> : Button that always brings up the&nbsp;menu.</p>
+<p><img alt="Create" src="./images/CreateButton.png"> : Creating/adding something in context (assets, recommendations,&nbsp;etc.).</p>
+<p><img alt="Cursor" src="./images/Cursor.png"> : Most fields of <span class="caps">MONARC</span> display additional information when the pointer stay unmoved some&nbsp;time.</p>
+<p><a name="Creating the first risk analysis" /></p>
+<h3><strong>Creating the first risk&nbsp;analysis</strong></h3>
+<p>After clicking on <code>Create a risk analysis</code>, the following pop-up&nbsp;appear</p>
+<p><img alt="Create a risk analysis" src="./images/NewRiskAnalysis.png"></p>
+<ol>
+<li>Select <code>CASES model</code></li>
+<li>There are at least two choices. Select <code>Modelling CASES</code>, this is the default template. It provides sufficient knowledge bases to start an&nbsp;analysis.</li>
+<li><code>Show inherent operational risks</code>. This option does not matter right&nbsp;now.</li>
+<li>Select your preferred language for this new analysis. (<span class="caps">FR</span>/<span class="caps">EN</span>/<span class="caps">DE</span>)</li>
+<li>Give your analysis a name, for example <em>My analysis</em>.</li>
+<li>Optional field, which allows you to describe your analysis with more&nbsp;details.</li>
+</ol>
+<p><a name="Description of the main view" /></p>
+<h3><strong>Description of the main&nbsp;view</strong></h3>
+<p><img alt="Main view" src="./images/Main.png"></p>
+<ol>
+<li>Risk Analyses panel: Create and select a risk analysis. Once the analysis is selected, the dashboard can be retracted to optimize the horizontal space by clicking on the symbol <img alt="Hide Risk Analyses panel icon" src="./images/HideRiskAnalysesPanel.png">.</li>
+<li>Navigation panel, users administration and account&nbsp;management.</li>
+<li>Access to steps of the method by clicking on numbers 1 to&nbsp;4.</li>
+<li>Contextual working areas of&nbsp;analysis.</li>
+</ol>
+<p><a name="Simplified risk analysis" /></p>
+<h3><strong>Simplified risk&nbsp;analysis</strong></h3>
+<p><a name="Risk identification (default modeling)" /></p>
+<h4>Risk identification (default&nbsp;modeling)</h4>
+<p>It is necessary to use the assets of the library and place them in the analysis.
+If the risk analysis does not contain any assets, follow the instructions below, otherwise go to the next chapter.
+<span class="caps">MONARC</span> proposes by default a structure where primary assets (Business) must be placed on the root of the analysis and supporting assets below. In order to simplify this step, two groups of assets have been&nbsp;created:</p>
+<ul>
+<li>
+<p><code>Front-Office</code>: This asset group provides the identification of the common risks found on the user’s side for a “Human Resources” department (for example, risks related to the office, computers, applications, physical <span class="amp">&amp;</span> environmental&nbsp;risks…).</p>
+</li>
+<li>
+<p><code>Back-Office</code>: These assets group provide the identification of transversal risks of the organization related to the <span class="caps">IT</span> and to organizations in&nbsp;general.</p>
+</li>
+</ul>
+<p><img alt="Modelling" src="./images/Modelling.png"></p>
+<p>Click on the <code>+</code> or the <code>-</code> to expand or wrap all categories of the&nbsp;library.</p>
+<ol>
+<li>
+<p>In the category <code>Primary assets</code>, click on <code>Department</code> and then, by holding down the left mouse button, move the asset to the analysis area just above (Drag and&nbsp;Drop).</p>
+</li>
+<li>
+<p>In the category <code>Model Structure</code>  find the assets <code>Front Office</code> and <code>Back Office</code> and then, by holding down the left mouse button, move the asset on the asset Department, which is now in the analysis&nbsp;area.</p>
+</li>
+</ol>
+<p><img alt="Model" src="./images/Model.png"></p>
+<ol>
+<li>The risk analysis now offers a model for <em>Department</em>.</li>
+<li>The <em>Front Office</em> now offers a default identification of the risks on the users’&nbsp;side.</li>
+<li>The <em>Back Office</em> now offers a default identification of the risks, for <span class="caps">IT</span> and&nbsp;organization.</li>
+<li>The total number of risks in this model is 84 (in this&nbsp;case).</li>
+</ol>
+<p><strong>Note</strong>: Identified risks by default are the risks commonly encountered and supposed to be significant, they do not claim to be&nbsp;exhaustive.</p>
+<p><a name="Edit impacts and consequences" /></p>
+<h4>Edit impacts and&nbsp;consequences</h4>
+<p>The aim is to define impacts and consequences for primary assets that can result from an occurrence of a risk from the model.
+In the case of this analysis, the primary asset is <em>Department</em>.</p>
+<p><img alt="Edit impacts" src="./images/EditImpacts.png"></p>
+<ol>
+<li>Click on the primary asset <code>Department</code>.</li>
+<li>Click on the symbol<img alt="Menu" src="./images/Menu.png">to display the context menu of the&nbsp;asset.</li>
+<li>Click on <code>Edit impacts</code>.</li>
+</ol>
+<p>The pop-up below&nbsp;appears.</p>
+<p><img alt="Impacts" src="./images/Impacts.png"></p>
+<ol>
+<li>Consultation of impact scales is done through the menu at the top right of the screen. <em>By leaving the pointer unmoved over the numbers, the meaning of this number appears after one&nbsp;second.</em></li>
+</ol>
+<p>When one of the criteria <strong>C</strong> (confidentiality), <strong>I</strong> (integrity) or <strong>A</strong> (availability) is allocated, there is a need to ask : what are the consequences on the company, and more particularly on its <span class="caps">ROLFP</span>, i.e. its <strong>R</strong>eputation, its <strong>O</strong>peration, its <strong>L</strong>egal, its <strong>F</strong>inances or the impact on the <strong>P</strong>erson (in the sense of personal&nbsp;data).</p>
+<p>In the case of the above figure, the <code>3</code> (out of 5) impact on confidentiality, is explained by the maximum value <span class="caps">ROLFP</span> regarding confidentiality. Example, <code>3</code> is the consequence for the person in case of disclosure of his personal&nbsp;file.</p>
+<p><a name="Risk assessment" /></p>
+<h4>Risk&nbsp;assessment</h4>
+<p><img alt="Risk assessment" src="./images/RiskAssessment.png"></p>
+<ol>
+<li>Click on a secondary asset, for example <code>Building</code>.</li>
+<li><code>CIA Impact</code>: It has been assigned to the <em>Department</em> is inherited by default and are no longer&nbsp;required.</li>
+<li><code>Threat</code>: <em>Theft or destruction of media, documents or equipment</em> is a physical threat that expresses fear of being robbed or destroyed&nbsp;materials.</li>
+<li><code>probability (Prob.)</code> : This is an estimate of the probability on a scale of 1 to 4 that the threat occurs. Take, for example, the case of a very large company where this threat is above average, so <strong>3</strong>.</li>
+<li><code>Vulnerability</code>: <em>The principle of least privilege is not applied</em>. The security principles searched are to know who has access rights and whether they related to the duties of the people&nbsp;involved.</li>
+<li><code>Existing controls</code>: Describe, in a factual manner, the security controls in place regarding this vulnerability or, more broadly, the risk in question. Take, for example, a second unfavorable case, for example a hospital where the whole building is like a public&nbsp;area.</li>
+<li><code>Qualification (Qualif.)</code> : In relation to the measure in place (point 6 above), the vulnerability qualification is therefore maximum <strong>5</strong> out of&nbsp;5.</li>
+<li><code>Current Risk</code> : All the parameters for calculating the risk are present, the current risk is therefore calculated based on the <span class="caps">CIA</span> values, which are directly dependent on the&nbsp;threat.</li>
+</ol>
+<p><strong>Note</strong>: By leaving the pointer on most fields, a tooltip appears after 1&nbsp;second.</p>
+<p><a name="Risk treatment" /></p>
+<h4>Risk&nbsp;treatment</h4>
+<p>The risk treatment consists in proposing one of the 4 types of treatment, knowing that most of the time the treatment is to reduce the risk by allocating a control, or to accept a weak risk. To access click on <code>Not treated</code> in <em>Treatment column</em>.</p>
+<p><img alt="Risk treatment" src="./images/RiskTreatment.png"></p>
+<ol>
+<li>Create one or many&nbsp;recommendations.</li>
+<li>Define the treatment type (according to <span class="caps">ISO</span> / <span class="caps">IEC</span>&nbsp;27005).</li>
+<li>Estimate the risk-reducing value in order to define the residual&nbsp;risk.</li>
+<li>Save the&nbsp;treatment.</li>
+</ol>
+<p><a name="Risk treatment plan management" /></p>
+<h4>Risk treatment plan&nbsp;management</h4>
+<p><img alt="Plan risk treatment" src="./images/PlanTreatment.png"></p>
+<p>In that case, the risk treatment plan only consists in one risk, but once all risks are treated, all risks and information risk recommendations will be in the treatment&nbsp;plan.</p>
+<ol>
+<li>The call of the pop-up is done by clicking on the 3rd step of the method and <code>Risk treatment plan management</code>.</li>
+<li>Order the recommendation positions holding down the left mouse button on symbol <img alt="Move button" src="./images/MoveButton.png"> and move&nbsp;it.</li>
+<li>Reset the positions in importance order&nbsp;(Imp.)</li>
+<li>Edit&nbsp;recommendation</li>
+</ol>
+<p>A final report of risk analysis can be generated by clicking on the 3rd step of the method and <code>Deliverable: final report</code>.</p>
+<p><strong>Note</strong>: Deliverables are only relevant when the <span class="caps">MONARC</span> method has been fully processed and all information has been&nbsp;entered.</p>
+        </div>
+    </section>
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+
+<!-- Sidebar/Social -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+  <ul class="list-group" id="social">
+    <li class="list-group-item"><a href="https://github.com/monarc-project"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+    <li class="list-group-item"><a href="https://twitter.com/cases_lu"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Social -->
+
+<!-- Sidebar/Recent Posts -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+  <ul class="list-group" id="recentposts">
+  </ul>
+</li>
+<!-- End Sidebar/Recent Posts -->
+
+<!-- Sidebar/Links -->
+<li class="list-group-item">
+  <h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+  <ul class="list-group" id="links">
+    <li class="list-group-item">
+      <a href="https://www.cases.lu/monarc.html" target="_blank">CASES</a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://securitymadein.lu" target="_blank">security made in Lëtzebuerg</a>
+    </li>
+  </ul>
+</li>
+<!-- End Sidebar/Links -->
+  </ul>
+</section>
+<!-- End Sidebar -->            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy;  security made in Lëtzebuerg (SMILE) g.i.e.
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+    Content
+  licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">Creative Commons Attribution-ShareAlike 4.0 International License</a>, except where indicated otherwise.
+</small></p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="https://monarc-project.github.io/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://monarc-project.github.io/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="https://monarc-project.github.io/theme/js/respond.min.js"></script>
+
+
+
+</body>
+</html>
