@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="http://monarc.lu/" rel="alternate"></link><link href="http://monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>http://monarc.lu/</id><updated>2017-08-28T00:00:00+02:00</updated><entry><title>MONARC 2.0.1 released</title><link href="http://monarc.lu/news/2017/08/28/monarc-201-released/" rel="alternate"></link><published>2017-08-28T00:00:00+02:00</published><updated>2017-08-28T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-08-28:/news/2017/08/28/monarc-201-released/</id><summary type="html">&lt;p&gt;Release 2.0.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.0.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including a security fix, multiple
+bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
+&lt;p&gt;You can download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.0.1"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;Enhancement&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Auto-complete function in the creation of a specific risk&amp;nbsp;(#29)&lt;/li&gt;
+&lt;li&gt;Remove the category for operational risk&amp;nbsp;(#26)&lt;/li&gt;
+&lt;li&gt;update of the&amp;nbsp;database&lt;/li&gt;
+&lt;li&gt;the database of &lt;span class="caps"&gt;MONARC&lt;/span&gt; is now backed up before an&amp;nbsp;upgrade&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Fix&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Import bug : Format of duedate in recomandation&amp;nbsp;(#30)&lt;/li&gt;
+&lt;li&gt;Problem when a label of an impact contains a character such as &amp;#8216;&amp;amp;&amp;#8217; or &amp;#8216;%&amp;#8217;&amp;nbsp;(#24)&lt;/li&gt;
+&lt;li&gt;Lost operational risks of assets in library after a snapshot&amp;nbsp;(#25)&lt;/li&gt;
+&lt;li&gt;Problem setting a comment in new scale row&amp;nbsp;(#24)&lt;/li&gt;
+&lt;li&gt;hash of users&amp;#8217; passwords were exposed through the &lt;span class="caps"&gt;API&lt;/span&gt; as reported by
+  Thomas &lt;span class="caps"&gt;LARCHER&lt;/span&gt;, Cyber Security Team of PwC&amp;nbsp;Luxembourg.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="monarc"></category><category term="new-release"></category></entry></feed>
