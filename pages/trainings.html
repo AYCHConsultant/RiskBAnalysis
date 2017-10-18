@@ -8,18 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link href="http://monarc.lu/images/monarc-logo.png" rel="icon">
+    <link href="http://monarc.lu/assets/images/monarc-logo.png" rel="icon">
 
 <link rel="canonical" href="http://monarc.lu/pages/trainings.html">
 
         <meta name="author" content="security made in Lëtzebuerg (SMILE) g.i.e." />
-        <meta name="description" content="Learn how to master risk analysis with our trainings." />
+        <meta name="description" content="Learn how to master risk analysis with our trainings. Training materials Workshop MONARC - english Workshop MONARC - french the latest Virtual Machine for VirtualBox Next MONARC training in Luxembourg is on Installing the demo Virtual Machine Download the image Download the last released image, MONARC_demo.ova Importing the image You will …" />
 
     <meta property="og:site_name" content="MONARC" />
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Trainings"/>
     <meta property="og:url" content="http://monarc.lu/pages/trainings.html"/>
-    <meta property="og:description" content="Learn how to master risk analysis with our trainings." />
+    <meta property="og:description" content="Learn how to master risk analysis with our trainings. Training materials Workshop MONARC - english Workshop MONARC - french the latest Virtual Machine for VirtualBox Next MONARC training in Luxembourg is on Installing the demo Virtual Machine Download the image Download the last released image, MONARC_demo.ova Importing the image You will …" />
 
 
     <!-- Bootstrap -->
@@ -49,7 +49,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a href="http://monarc.lu/" class="navbar-brand">
-<img class="img-responsive pull-left gap-right" src="http://monarc.lu/images/monarc-logo.png" width="20px"/> MONARC            </a>
+<img class="img-responsive pull-left gap-right" src="http://monarc.lu/assets/images/monarc-logo.png" width="20px"/> MONARC            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
@@ -76,6 +76,43 @@
         <div class="entry-content">
             <p>Learn how to master risk analysis with our
 <a href="https://www.eventbrite.com/o/cases-13225622809">trainings</a>.</p>
+<h2>Training&nbsp;materials</h2>
+<ul>
+<li><a href="/assets/files/monarc-training/en/Formation_V2-MONARC_En.pdf">Workshop <span class="caps">MONARC</span> -&nbsp;english</a></li>
+<li><a href="/assets/files/monarc-training/fr/Formation_V2-MONARC_Fr.pdf">Workshop <span class="caps">MONARC</span> -&nbsp;french</a></li>
+<li>the latest <a href="https://github.com/monarc-project/MonarcAppFO/releases/latest">Virtual Machine</a>
+  for&nbsp;VirtualBox</li>
+</ul>
+<p>Next <span class="caps">MONARC</span> training in Luxembourg is&nbsp;on</p>
+<h2>Installing the demo Virtual&nbsp;Machine</h2>
+<h3>Download the&nbsp;image</h3>
+<p>Download the last released image,
+<a href="https://github.com/monarc-project/MonarcAppFO/releases/latest">MONARC_demo.ova</a></p>
+<h3>Importing the&nbsp;image</h3>
+<p>You will need a tool for virtualization which accepts .ova files.
+In this guide, <a href="https://www.virtualbox.">VirtualBox</a> will be&nbsp;used.</p>
+<p>Import the image in your application by either just double-click on the .ova
+file (if VirtualBox is associated with .ova files) or launch VirtualBox and
+click on File -&gt; Import&nbsp;appliance.</p>
+<h3>Configuration of&nbsp;VirtualBox</h3>
+<p>Now, set-up a new &#8220;host only network&#8221; (file -&gt; preferences -&gt;&nbsp;network)</p>
+<p><img alt="monarc_cli" src="/assets/images/trainings/create_host.png" title="Create host"></p>
+<p>After this, fill out using the following parameters&nbsp;:</p>
+<p><img alt="monarc_cli" src="/assets/images/trainings/param1.JPG" title="Adapter">
+<img alt="monarc_cli" src="/assets/images/trainings/param2.JPG" title="DHCP"></p>
+<p>You also have to modify the network interface of the virtual&nbsp;machine.</p>
+<p>Just be sure that &#8220;host only adapter&#8221; is selected and the name is the one just&nbsp;created.</p>
+<p><em><strong><span class="caps">NOTE</span>:</strong></em> The box &#8220;cable connected&#8221; has to be&nbsp;ticked.</p>
+<p><img alt="monarc_cli" src="/assets/images/trainings/network.JPG" title="Image - network"></p>
+<h3>Run the&nbsp;server</h3>
+<p>Now that the image is installed and configured, you can run the server by
+selecting &#8220;demo_monarc&#8221; and clicking&nbsp;start.</p>
+<p><img alt="monarc_cli" src="/assets/images/trainings/launch.png" title="launch"></p>
+<p>The server is running when the window of the virtual appliance looks like this&nbsp;:</p>
+<p><img alt="monarc_cli" src="/assets/images/trainings/vm_launched.JPG" title="vm launched"></p>
+<h3>Use <span class="caps">MONARC</span></h3>
+<p>Just open your browser and go to this address:&nbsp;http://10.0.0.101/</p>
+<p>Login / Password : admin@admin.test /&nbsp;admin</p>
         </div>
     </section>
         </div>
@@ -100,6 +137,8 @@
 <li class="list-group-item">
   <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
   <ul class="list-group" id="recentposts">
+    <li class="list-group-item"><a href="http://monarc.lu/news/2017/10/13/monarc-203-released/"><span class="caps">MONARC</span> 2.0.3&nbsp;released</a></li>
+    <li class="list-group-item"><a href="http://monarc.lu/news/2017/10/10/monarc-202-released/"><span class="caps">MONARC</span> 2.0.2&nbsp;released</a></li>
     <li class="list-group-item"><a href="http://monarc.lu/news/2017/08/28/monarc-201-released/"><span class="caps">MONARC</span> 2.0.1&nbsp;released</a></li>
   </ul>
 </li>

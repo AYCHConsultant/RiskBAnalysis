@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC</title><link href="http://monarc.lu/" rel="alternate"></link><link href="http://monarc.lu/feeds/all.atom.xml" rel="self"></link><id>http://monarc.lu/</id><updated>2017-08-28T00:00:00+02:00</updated><entry><title>MONARC 2.0.1 released</title><link href="http://monarc.lu/news/2017/08/28/monarc-201-released/" rel="alternate"></link><published>2017-08-28T00:00:00+02:00</published><updated>2017-08-28T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-08-28:/news/2017/08/28/monarc-201-released/</id><summary type="html">&lt;p&gt;Release 2.0.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.0.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including a security fix, multiple
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC</title><link href="http://monarc.lu/" rel="alternate"></link><link href="http://monarc.lu/feeds/all.atom.xml" rel="self"></link><id>http://monarc.lu/</id><updated>2017-10-13T00:00:00+02:00</updated><entry><title>MONARC 2.0.3 released</title><link href="http://monarc.lu/news/2017/10/13/monarc-203-released/" rel="alternate"></link><published>2017-10-13T00:00:00+02:00</published><updated>2017-10-13T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-10-13:/news/2017/10/13/monarc-203-released/</id><summary type="html">&lt;p&gt;Release 2.0.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.0.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including two minor&amp;nbsp;fixes.&lt;/p&gt;
+&lt;p&gt;You can download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.0.3"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.0.2 released</title><link href="http://monarc.lu/news/2017/10/10/monarc-202-released/" rel="alternate"></link><published>2017-10-10T00:00:00+02:00</published><updated>2017-10-10T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-10-10:/news/2017/10/10/monarc-202-released/</id><summary type="html">&lt;p&gt;Release 2.0.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.0.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
+&lt;p&gt;You can download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.0.2"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;New&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class="caps"&gt;MONARC&lt;/span&gt; is now available in&amp;nbsp;Dutch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Enhancement&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;updated German&amp;nbsp;translations.&lt;/li&gt;
+&lt;li&gt;updated the font used for the images in the generated&amp;nbsp;reports.&lt;/li&gt;
+&lt;li&gt;minor improvements in the&amp;nbsp;configuration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;Fix&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Lost operational risk when importing from &lt;span class="caps"&gt;MONARC&lt;/span&gt; Common &lt;span class="caps"&gt;DB&lt;/span&gt;&amp;nbsp;(#32)&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;PHP&lt;/span&gt; Notice: Use of undefined constant i&amp;nbsp;(#33)&lt;/li&gt;
+&lt;/ul&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.0.1 released</title><link href="http://monarc.lu/news/2017/08/28/monarc-201-released/" rel="alternate"></link><published>2017-08-28T00:00:00+02:00</published><updated>2017-08-28T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-08-28:/news/2017/08/28/monarc-201-released/</id><summary type="html">&lt;p&gt;Release 2.0.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.0.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including a security fix, multiple
 bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
 &lt;p&gt;You can download the new virtual machine
 &lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.0.1"&gt;here&lt;/a&gt;.&lt;/p&gt;
