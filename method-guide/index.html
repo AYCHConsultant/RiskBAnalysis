@@ -5,10 +5,10 @@
 <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 1.5.4">
-<meta name="description" content="Technical guide of MONARC">
-<meta name="keywords" content="risk-analysis, monarc, technical-guide">
-<meta name="author" content=""security made in Lëtzebuerg" (SMILE) g.i.e">
-<title>MONARC technical guide</title>
+<meta name="description" content="MONARC Method guide">
+<meta name="keywords" content="risk-analysis, monarc">
+<meta name="author" content=""security made in Lëtzebuerg" (SMILE) g.i.e.">
+<title>MONARC Method guide</title>
 <style>
 /* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
 /* Remove comment around @import statement below when using as a custom stylesheet */
@@ -513,48 +513,55 @@ table.CodeRay td.code>pre{padding:0}
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>MONARC technical guide</h1>
+<h1>MONARC Method guide</h1>
 <div class="details">
-<span id="author" class="author">"security made in Lëtzebuerg" (SMILE) g.i.e</span><br>
+<span id="author" class="author">"security made in Lëtzebuerg" (SMILE) g.i.e.</span><br>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#introduction">1. Introduction</a></li>
-<li><a href="#modules-of-the-project">2. Modules of the project</a></li>
-<li><a href="#architecture">3. Architecture</a>
+<li><a href="#introduction">1. Introduction</a>
 <ul class="sectlevel2">
-<li><a href="#global-architecture">3.1. Global architecture</a>
-<ul class="sectlevel3">
-<li><a href="#network-requirements">3.1.1. Network requirements</a></li>
+<li><a href="#purpose">1.1. Purpose</a></li>
+<li><a href="#other-documents">1.2. Other documents</a></li>
+<li><a href="#syntax-used-in-the-document">1.3. Syntax used in the document</a></li>
+<li><a href="#syntax-used-in-monarc">1.4. Syntax used in MONARC</a></li>
 </ul>
 </li>
-<li><a href="#specifications-by-server">3.2. Specifications by server</a></li>
-</ul>
-</li>
-<li><a href="#requirements-and-deployment">4. Requirements and deployment</a>
+<li><a href="#monarc-method">2. Monarc Method</a>
 <ul class="sectlevel2">
-<li><a href="#requirements">4.1. Requirements</a>
-<ul class="sectlevel3">
-<li><a href="#network">4.1.1. Network</a></li>
-<li><a href="#tls-certificate">4.1.2. TLS certificate</a></li>
-<li><a href="#system-and-software">4.1.3. System and software</a></li>
+<li><a href="#iterative-method">2.1. Iterative Method</a></li>
+<li><a href="#qualitative-method">2.2. Qualitative method</a></li>
+<li><a href="#method-broadly-based-on-iso-iec-27005">2.3. Method broadly based on ISO/IEC 27005</a></li>
+<li><a href="#access-to-methodology-screens">2.4. Access to methodology screens</a></li>
+<li><a href="#details-of-the-stages">2.5. Details of the stages</a></li>
 </ul>
 </li>
-<li><a href="#deployment">4.2. Deployment</a>
-<ul class="sectlevel3">
-<li><a href="#only-the-front-office">4.2.1. Only the front office</a></li>
-<li><a href="#the-back-office-and-the-front-office">4.2.2. The back office and the front office</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#updates">5. Updates</a>
+<li><a href="#definition-of-the-risk-analysis-context">3. Definition of the risk analysis context</a>
 <ul class="sectlevel2">
-<li><a href="#system-update">5.1. System update</a></li>
-<li><a href="#monarc-update">5.2. MONARC update</a></li>
+<li><a href="#risk-analysis-context">3.1. Risk analysis context</a></li>
+<li><a href="#assessment-of-the-trends-threats-and-overview">3.2. Assessment of the trends, threats and overview</a></li>
+<li><a href="#risk-analysis-context-2">3.3. Risk analysis context</a></li>
+<li><a href="#definition-of-the-assessment-acceptance-and-impact-criteria">3.4. Definition of the assessment, acceptance and impact criteria</a></li>
+<li><a href="#deliverable-validation-of-the-context">3.5. Deliverable: Validation of the context</a></li>
 </ul>
 </li>
+<li><a href="#context-modeling">4. Context Modeling</a>
+<ul class="sectlevel2">
+<li><a href="#identification-of-assets-vulnerabilities">4.1. Identification of assets, vulnerabilities</a></li>
+<li><a href="#assessment-of-impact-and-consequences">4.2. Assessment of impact and consequences</a></li>
+<li><a href="#summary-of-assets-impact">4.3. Summary of assets/impact</a></li>
+<li><a href="#deliverable-validation-of-the-context-2">4.4. Deliverable: Validation of the context</a></li>
+</ul>
+</li>
+<li><a href="#risk-assessment-and-processing">5. Risk Assessment and processing</a>
+<ul class="sectlevel2">
+<li><a href="#risk-assessment-and-processing-2">5.1. Risk assessment and processing</a></li>
+<li><a href="#management-of-the-processing-plan">5.2. Management of the processing plan</a></li>
+<li><a href="#deliverable-end-report">5.3. Deliverable: End report</a></li>
+</ul>
+</li>
+<li><a href="#implementation-and-monitoring">6. Implementation and monitoring</a></li>
 </ul>
 </div>
 </div>
@@ -562,6 +569,14 @@ table.CodeRay td.code>pre{padding:0}
 <div class="sect1">
 <h2 id="introduction"><a class="anchor" href="#introduction"></a>1. Introduction</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="purpose"><a class="anchor" href="#purpose"></a>1.1. Purpose</h3>
+<div class="paragraph">
+<p>The purpose of this document is to explain the procedures of the MONARC method by describing the various steps offered by the tool.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="other-documents"><a class="anchor" href="#other-documents"></a>1.2. Other documents</h3>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -569,14 +584,174 @@ table.CodeRay td.code>pre{padding:0}
 <i class="fa icon-note" title="Note"></i>
 </td>
 <td class="content">
-<div class="title">This document is currently under active development and discussion!</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="/quick-start"><strong>Quick Start</strong></a>: Provide a quick start with MONARC.</p>
+</li>
+<li>
+<p><a href="/Method-guide"><strong>Method guide</strong></a>: Complete documentation of the
+method.</p>
+</li>
+<li>
+<p><a href="/technical-guide"><strong>Technical guide</strong></a>: Complete technical
+documentation.</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="syntax-used-in-the-document"><a class="anchor" href="#syntax-used-in-the-document"></a>1.3. Syntax used in the document</h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+<span class="image"><img src="images/Step.png" alt="Step"></span>
+</td>
+<td class="hdlist2">
+<p>All numbers in white on a red background are used on print-screen views to provide additional
+explanations. Explanations are always after the view with the corresponding numbering. <strong>i.e.</strong> 1.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<code>Reference</code>
+</td>
+<td class="hdlist2">
+<p>MONARC Reference</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect2">
+<h3 id="syntax-used-in-monarc"><a class="anchor" href="#syntax-used-in-monarc"></a>1.4. Syntax used in MONARC</h3>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+<span class="image"><img src="images/Menu.png" alt="Menu"></span>
+</td>
+<td class="hdlist2">
+<p>Button that always brings up the menu.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<span class="image"><img src="images/CreateButton.png" alt="Create"></span>
+</td>
+<td class="hdlist2">
+<p>Creating/adding something in
+context (assets, recommendations, etc.).</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<span class="image"><img src="images/Cursor.png" alt="Cursor"></span>
+</td>
+<td class="hdlist2">
+<p>Most fields of MONARC display
+additional information when the pointer stay unmoved some time.</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="monarc-method"><a class="anchor" href="#monarc-method"></a>2. Monarc Method</h2>
+<div class="sectionbody">
 <div class="paragraph">
-<p>This document is intended to administrators of a MONARC instance.
-If you find errors or omissions in this document, please don&#8217;t hesitate to
-submit an <a href="https://github.com/monarc-project/technical-guide/issues">issue</a>
-or open a
-<a href="https://github.com/monarc-project/technical-guide/pulls">pull request</a>
-with a fix.</p>
+<p>MONARC “Qualitative” is an iterative method of risk analysis in four stages; broadly inspired by ISO/IEC 27005.</p>
+</div>
+<div class="sect2">
+<h3 id="iterative-method"><a class="anchor" href="#iterative-method"></a>2.1. Iterative Method</h3>
+<div class="paragraph">
+<p>MONARC uses an iterative method which enables the pragmatic progression of risk management. This approach, as recommended by ISO 27005, enables the user to restrict himself to the essentials, then to carry out successive iterations to broaden the target or further refine it to cover more technical aspects. The optimised risk models provided as standard with the tool will enable this type of management to be carried out.</p>
+</div>
+<div class="imageblock" style="text-align: center">
+<div class="content">
+<img src="images/Methode.png" alt="Methode">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Context establishment: Definition of the target of the risk analysis, establishing and describing the context, defining the risk analysis criteria and the structure of the risk approach.</p>
+</li>
+<li>
+<p>Context modelling: Development phase of the risk model. After having identified the primary assets, they just need to be broken down into support assets on a priority basis. The most common assets are present in the MONARC knowledge base and therefore identification of risk by default is offered. This type of identification may be sufficient in an initial risk iteration; however, it is the responsibility of the risk expert to provide the comprehensive model.</p>
+</li>
+<li>
+<p>Risk assessment and processing: Risk assessment involves establishing the level of threats and vulnerabilities of the context type under review. The processing of risk entails proposing security measures which tend to lower major risks to acceptable levels and to accept low risks.</p>
+</li>
+<li>
+<p>Implementation and monitoring: The current MONARC version provides in Beta version follow-ups views in terms of the implementation of recommendations. Monitoring involves checking the major changes to the risk analysis context on a regular basis, as well as any major changes beyond said context which would imply a redesign of an analysis iteration.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="qualitative-method"><a class="anchor" href="#qualitative-method"></a>2.2. Qualitative method</h3>
+<div class="paragraph">
+<p>MONARC is a “Qualitative” method, i.e. the risk parameters are determined on a contextual digital scale which enables the risks to be prioritised. This approach is based on ISO/IEC 27005 as it is easier to understand, especially for non-tangible criteria in terms of impact and consequences, such as "Reputation", "Image", "Legality", etc.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="method-broadly-based-on-iso-iec-27005"><a class="anchor" href="#method-broadly-based-on-iso-iec-27005"></a>2.3. Method broadly based on ISO/IEC 27005</h3>
+<div class="paragraph">
+<p>The illustration above displays the similarities between ISO/IEC 27005 and MONARC.</p>
+</div>
+<div class="imageblock" style="text-align: center">
+<div class="content">
+<img src="images/Monarcvs27005.png" alt="Monarcvs27005">
+</div>
+</div>
+<div class="paragraph">
+<p>The sub-stages provided by the method are also in line with ISO/IEC 27005:</p>
+</div>
+<div class="imageblock" style="text-align: center">
+<div class="content">
+<img src="images/MethodDetailed.png" alt="MethodDetailed">
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="access-to-methodology-screens"><a class="anchor" href="#access-to-methodology-screens"></a>2.4. Access to methodology screens</h3>
+<div class="paragraph">
+<p>Access to the views of the various stages of the method is provided by clicking on the numbers 1 to 4, which are displayed under the Breadcrumbs in the main MONARC view.
+The ISO/IEC 27005 processes are implemented via the views.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/MethodScreen.png" alt="MethodScreen"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="details-of-the-stages"><a class="anchor" href="#details-of-the-stages"></a>2.5. Details of the stages</h3>
+<div class="paragraph">
+<p><span class="image"><img src="images/MethodSteps.png" alt="MethodSteps"></span></p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Ticking the boxes enables the user to develop the progress status of the method</p>
+</li>
+<li>
+<p>Clicking on the heading provides access to the management contextual sub-screen</p>
+</li>
+</ol>
 </div>
 </td>
 </tr>
@@ -584,741 +759,548 @@ with a fix.</p>
 </div>
 </div>
 </div>
+</div>
 <div class="sect1">
-<h2 id="modules-of-the-project"><a class="anchor" href="#modules-of-the-project"></a>2. Modules of the project</h2>
+<h2 id="definition-of-the-risk-analysis-context"><a class="anchor" href="#definition-of-the-risk-analysis-context"></a>3. Definition of the risk analysis context</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>The source code of MONARC is divided in several modules with dedicated Git
-repositories.</p>
+<p>By clicking on number 1, the following menu will appear:</p>
 </div>
-<table class="tableblock frame-all grid-all spread">
-<caption class="title">Summary of the different modules of the project</caption>
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<thead>
+<div class="paragraph">
+<p><span class="image"><img src="images/MethodScreenStep1Detailed.png" alt="MethodScreenStep1Detailed"></span></p>
+</div>
+<div class="admonitionblock note">
+<table>
 <tr>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top">Back office</th>
-<th class="tableblock halign-left valign-top">Front office</th>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Link to the contextual management pop-ups, see the following chapters</p>
+</li>
+<li>
+<p>Boxes to tick, indicating that the stage selected has closed. This optional information helps to show the progress of the risk analysis project and display the risk representation graph of the dashboard</p>
+</li>
+<li>
+<p>Link enabling the “Validation of the context” deliverable to be generated. As part of a consultancy assignment, for instance, it may be helpful to get the client to validate it.</p>
+</li>
+</ol>
+</div>
+</td>
 </tr>
-</thead>
+</table>
+</div>
+<div class="sect2">
+<h3 id="risk-analysis-context"><a class="anchor" href="#risk-analysis-context"></a>3.1. Risk analysis context</h3>
+<div class="paragraph">
+<p>This view offers text encoding and formatting functions, enabling the risk analysis target to be contextualised with well-formatted texts that will be documented in the deliverables.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/RiskAnalysisContext.png" alt="RiskAnalysisContext"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Access to the text formatting functions (bold, italics, paragraph, text size, etc.). The quality of the encoding directly affects that of the deliverable.</p>
+</li>
+<li>
+<p>To display or delete the help area  .</p>
+</li>
+<li>
+<p>Help area on the content which is recommended for data entry (see below for more).</p>
+</li>
+<li>
+<p>Chapters recommended by ISO27005. Clicking on the label will place it automatically in the data entry area.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="assessment-of-the-trends-threats-and-overview"><a class="anchor" href="#assessment-of-the-trends-threats-and-overview"></a>3.2. Assessment of the trends, threats and overview</h3>
+<div class="paragraph">
+<p><span class="image"><img src="images/TrendEvaluation.png" alt="TrendEvaluation"></span></p>
+</div>
+<div class="paragraph">
+<p>This stage is divided into three separate parts which structures the data collection necessary for understanding the context to analyse. It is advisable to chair a working party of 5 to 10 people (depending on the organisation), bringing together the members of management, IT, risk management department (if it exists), the heads of departments or key personnel.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Assessment of trends: MONARC provides a series of questions to establish the context from a very general perspective (for more information, see chapter 3.2.1).</p>
+</li>
+<li>
+<p>Assessment of threats: Enables the threats to be reviewed from a general viewpoint and, possibly, to evaluate by default in the future model (for more information, see chapter 3.2.2).</p>
+</li>
+<li>
+<p>Textual summary of key points determined during stages 1 and 2 (for more information, see chapter 3.2.3).</p>
+</li>
+</ol>
+</div>
+<div class="sect3">
+<h4 id="assessment-of-trends"><a class="anchor" href="#assessment-of-trends"></a>3.2.1. Assessment of trends</h4>
+<div class="paragraph">
+<p>The assessment of trends provides a series of questions to establish the context from a very general perspective. These questions highlight the selection of key assets which must be taken into account during the analysis, the security criteria, as well as a few indicators concerning the motives of the attack and the external context of the target.
+This list is not exhaustive; you can add questions of your choice at the end of the page.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="assessment-of-threats"><a class="anchor" href="#assessment-of-threats"></a>3.2.2. Assessment of threats</h4>
+<div class="paragraph">
+<p>The assessment of threats, in similar fashion to the assessment of trends, takes the form of a meeting involving key personnel in the organisation.
+The purpose is to review the majority of threats by gathering information on the past and reviewing the general observations made by the group.
+The principle is to obtain a consensus on the probability of the threat on a scale which is easy to interpret:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Relatively low: Never occurred, really not likely</p>
+</li>
+<li>
+<p>Normal: No clear position, no opinion</p>
+</li>
+<li>
+<p>Relatively +: Already occurred</p>
+</li>
+<li>
+<p>Relatively ++: Already occurred on one or two occasions
+The security expert is responsible for converting the consensus into a probability value of 1 to n which shall be used in the model.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/ThreatAssessment.png" alt="ThreatAssessment"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click on the “Assessment of threats” tab.</p>
+</li>
+<li>
+<p>Heading of the threat.</p>
+</li>
+<li>
+<p>Information on the threat.</p>
+</li>
+<li>
+<p>Observation to encode, information gathering from a group of persons.</p>
+</li>
+<li>
+<p>Information on the security criteria affected by the threat.</p>
+</li>
+<li>
+<p>Choice of the trend, obtained by group consensus.</p>
+</li>
+<li>
+<p>Selection of the probability deduced from point   by the security expert.</p>
+</li>
+<li>
+<p>Possibility of subsequently running the threats of the model (after they have been developed).</p>
+</li>
+<li>
+<p>Save the information and browse the threats.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="summary-of-assessments"><a class="anchor" href="#summary-of-assessments"></a>3.2.3. Summary of assessments</h4>
+<div class="paragraph">
+<p>In similar fashion to the context of the risk analysis, this view enables the user to summarise the pertinent information gathered during the assessment of trends and threats.
+This text enables the user to enrich the deliverable.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/SummaryAssessment.png" alt="SummaryAssessment"></span></p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="risk-analysis-context-2"><a class="anchor" href="#risk-analysis-context-2"></a>3.3. Risk analysis context</h3>
+<div class="paragraph">
+<p>This view enables the user to encode the information on the context of the risk management, for instance, with regard to the roles and responsibilities, the stakeholders, etc.
+For more information, please see chapter 7.4, of ISO/IEC 27005: 2011</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/RiskAnalysisContext.png" alt="RiskAnalysisContext"></span></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="definition-of-the-assessment-acceptance-and-impact-criteria"><a class="anchor" href="#definition-of-the-assessment-acceptance-and-impact-criteria"></a>3.4. Definition of the assessment, acceptance and impact criteria</h3>
+<div class="paragraph">
+<p>This involves personalising the scales and impact criteria and consequences.
+MONARC provides values by default which can be personalised depending on the context. All the scales can be modified and the levels personalised. However, it is no longer possible to modify the scales when an assessment has been encoded.</p>
+</div>
+<div class="sect3">
+<h4 id="scale-of-impact"><a class="anchor" href="#scale-of-impact"></a>3.4.1. Scale of impact</h4>
+<div class="paragraph">
+<p><span class="image"><img src="images/ScaleImpact.png" alt="ScaleImpact"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click to modify the number of scales.</p>
+</li>
+<li>
+<p>Click to “Display or Hide” the criteria not used in the analysis.</p>
+</li>
+<li>
+<p>Click on the   symbol to hide an unused column.</p>
+</li>
+<li>
+<p>Click to add a new impact criteria.</p>
+</li>
+<li>
+<p>Click to edit the headings of each scale (the management is similar to an Excel table, by clicking on a heading, it is possible to edit it; clicking on another, the first heading will save automatically and so forth).</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>By default, the impact and consequence scale includes the following criteria:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>C: Confidentiality</p>
+</li>
+<li>
+<p>I: Integrity</p>
+</li>
+<li>
+<p>A: Availability</p>
+</li>
+<li>
+<p>R: Reputation</p>
+</li>
+<li>
+<p>O: Operation</p>
+</li>
+<li>
+<p>L: Legal</p>
+</li>
+<li>
+<p>F: Financial</p>
+</li>
+<li>
+<p>P: Person (impact on the person)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>It is also possible to add personalised consequences as well as impact criteria.</p>
+</div>
+<div class="paragraph">
+<p>The same scales are used to process information risk and operational risk; there is simply a difference of interpretation :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>The information risks are evaluated on the CIA criteria by taking into account the ROLFP consequences.</p>
+</li>
+<li>
+<p>Operational risks are directly evaluated on the ROLFP criteria</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="scale-of-threats"><a class="anchor" href="#scale-of-threats"></a>3.4.2. Scale of threats</h4>
+<div class="paragraph">
+<p>The scale of threats is used to calculate information risks and the probability of scenarios relating to operational risks</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/ScaleThreats.png" alt="ScaleThreats"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click to modify the number of scales</p>
+</li>
+<li>
+<p>Click to edit the heading on each scale (Management identical to the impact scale).</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="scale-of-vulnerabilities"><a class="anchor" href="#scale-of-vulnerabilities"></a>3.4.3. Scale of vulnerabilities</h4>
+<div class="paragraph">
+<p>The scale of vulnerabilities is only used for calculating information risks.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/ScaleVulunerabilities.png" alt="ScaleVulunerabilities"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Click to modify the number of scales</p>
+</li>
+<li>
+<p>Click to edit the heading on each scale (Management identical to the impact scale).</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="management-of-acceptability-thresholds"><a class="anchor" href="#management-of-acceptability-thresholds"></a>3.4.4. Management of acceptability thresholds</h4>
+<div class="paragraph">
+<p>There are two separate tables for acceptability thresholds, as operational risk and information risk are not calculated in the same way.
+Information risks are calculated using three criteria:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/InformationTresholds.png" alt="InformationTresholds"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Modification of thresholds levels of informations risks. The table displayed above (as well as the risk analysis tables) is updated automatically.</p>
+</li>
+<li>
+<p>Information risks are calculated using three criteria: Impact x Threat x Vulnerability</p>
+</li>
+<li>
+<p>Modification of thresholds levels of operational risks. The table displayed above (as well as the risk analysis tables) is updated automatically.</p>
+</li>
+<li>
+<p>Operational riks are calculated using two criteria: Impact x Probability</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="deliverable-validation-of-the-context"><a class="anchor" href="#deliverable-validation-of-the-context"></a>3.5. Deliverable: Validation of the context</h3>
+<div class="paragraph">
+<p>This deliverable includes all the information gathered and entered in the context establishment phase. It can be used to validate the information provided by the client, before beginning the risk identification.
+A form has to be filled in. When the user clicks on “Save”, a file in Word format is generated.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/DeliverableContextValidation.png" alt="DeliverableContextValidation"></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="context-modeling"><a class="anchor" href="#context-modeling"></a>4. Context Modeling</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>By clicking on number 2, the following menu will appear:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/MethodScreenStep2Detailed.png" alt="MethodScreenStep2Detailed"></span></p>
+</div>
+<div class="sect2">
+<h3 id="identification-of-assets-vulnerabilities"><a class="anchor" href="#identification-of-assets-vulnerabilities"></a>4.1. Identification of assets, vulnerabilities</h3>
+<div class="paragraph">
+<p>Clicking on the link will generate the main view of MONARC.
+The purpose is to create the risk model by using the assets in the library.
+The principle of the modelling is to place at the root the analysis of the primary assets, then place the support assets which make up the parts above it.
+The context establishment phase is used for determining the primary assets which will be the subject of the analysis. At this stage of the analysis, certain secondary assets may already be known.
+By default, MONARC offers a “Front Office” and “Back Office” structure; however, this is not an obligation. It is vital that the construction of the model follows a contextual logic, the assets and terms listed must use the organisation&#8217;s terminology. To do this, the user must not hesitate to rename the assets provided by default by the library.</p>
+</div>
+<div class="paragraph">
+<p>Principe of the "front office"/"back office" structure</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/FrontBack.png" alt="FrontBack"></span></p>
+</div>
+<table class="tableblock frame-none grid-none spread">
+<colgroup>
+<col style="width: 7.6923%;">
+<col style="width: 92.3077%;">
+</colgroup>
 <tbody>
 <tr>
-<th class="tableblock halign-left valign-top"></th>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p><a href="https://github.com/monarc-project/MonarcAppBO">MONARC BO</a>: Management of the database, clients and FO servers.</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p><a href="https://github.com/monarc-project/MonarcAppFO">MONARC</a>: The MONARC front office</p>
-</div></div></td>
-</tr>
-<tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">Modules</p></th>
-<td class="tableblock halign-left valign-top"><div><div class="ulist">
-<ul>
-<li>
-<p>MonarcCore (<a href="https://github.com/monarc-project/zm-core">zm-core</a> in <code>vendor/monarc/core</code>)</p>
-</li>
-<li>
-<p>MonarcBO (<a href="https://github.com/monarc-project/zm-backoffice">zm-backoffice</a> in <code>vendor/monarc/backoffice</code>)</p>
-</li>
-</ul>
+<td class="tableblock halign-center valign-middle"><div><div class="dlist">
+<dl>
+<dt class="hdlist1"><span class="image"><img src="images/Step.png" alt="Step"></span></dt>
+</dl>
 </div></div></td>
 <td class="tableblock halign-left valign-top"><div><div class="ulist">
 <ul>
 <li>
-<p>MonarcCore (<a href="https://github.com/monarc-project/zm-core">zm-core</a> in <code>vendor/monarc/core</code>)</p>
+<p>The “Front Office” represents the “user” side; for example, in the case of a “Human Resources” department we will find employees and the complete IT system to which they have access (office, workstation, hardware, software, individuals, etc.).</p>
 </li>
 <li>
-<p>MonarcFO (<a href="https://github.com/monarc-project/zm-client">zm-client</a> in <code>vendor/monarc/frontoffice</code>)</p>
-</li>
-</ul>
-</div></div></td>
-</tr>
-<tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">Interfaces (in node_modules/)</p></th>
-<td class="tableblock halign-left valign-top"><div><div class="ulist">
-<ul>
-<li>
-<p><a href="https://github.com/monarc-project/ng-anr">ng_anr</a></p>
-</li>
-<li>
-<p><a href="https://github.com/monarc-project/ng-backoffice">ng_backoffice</a></p>
-</li>
-</ul>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="ulist">
-<ul>
-<li>
-<p><a href="https://github.com/monarc-project/ng-anr">ng_anr</a></p>
-</li>
-<li>
-<p><a href="https://github.com/monarc-project/ng-client">ng_client</a></p>
+<p>The “Back Office” represents the IT and organisational side of the organisation that are common to all concerned (building, data centre, network, administrators, common rules, etc.).</p>
 </li>
 </ul>
 </div></div></td>
 </tr>
 </tbody>
 </table>
-<div class="ulist">
-<ul>
-<li>
-<p>MonarcCore (<a href="https://github.com/monarc-project/zm-core">zm-core</a>) is the API in charge of providing an
-access to the data. Common to the front office and the back office.</p>
-</li>
-<li>
-<p>MonarcFO (<a href="https://github.com/monarc-project/zm-client">zm-client</a>) is the interface for the front office.</p>
-</li>
-<li>
-<p>MonarcBO (<a href="https://github.com/monarc-project/zm-backoffice">zm-backoffice</a>) is the interface for the
-back office.</p>
-</li>
-</ul>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="architecture"><a class="anchor" href="#architecture"></a>3. Architecture</h2>
-<div class="sectionbody">
 <div class="sect2">
-<h3 id="global-architecture"><a class="anchor" href="#global-architecture"></a>3.1. Global architecture</h3>
+<h3 id="assessment-of-impact-and-consequences"><a class="anchor" href="#assessment-of-impact-and-consequences"></a>4.2. Assessment of impact and consequences</h3>
 <div class="paragraph">
-<p>Basically MONARC is composed of two main parts:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>a back office: for the management of the database, FO servers and clients of
-MONARC installations;</p>
-</li>
-<li>
-<p>a front office: for the management of the risks analysis. A front office
-instance can be used without the back office.</p>
-</li>
-</ul>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-<div class="paragraph">
-<p>If you want run your own risk analysis you only need the front office.
-More information about the installation in
-<a href="#only-the-front-office">this section</a>.</p>
-</div>
-</td>
-</tr>
-</table>
+<p>For each primary asset, the impact and consequences which may apply must be defined, if the risks in the model arise. By default, all the supporting assets will inherit these impacts, but it is also possible to redefine them.
+When the primary asset is a service, then the “C” (Confidentiality) and the “I” (Integrity) refers to the most sensitive information of the service in question. “A” (Availability) refers to the service and the information, based on the principle that if the information is available, the service will also be available.
+When the primary asset is the information, there is no ambiguity regarding the CIA criteria - it refers to all the information.
+In certain rarer cases, if the “C” associated with a service conveys the confidentiality of the operating procedure (e.g. manufacturing process), the user just has to express the assets in the model separately in the form of an informational asset and a service.</p>
 </div>
 <div class="paragraph">
-<p>The whole architecture includes an additional reverse proxy (<strong>RPX</strong>) and a
-configuration server (<strong>CFG</strong>). It is possible to connect many front offices
-(<strong>FO</strong>) to one back office (<strong>BO</strong>).
-It is automatically deployed with <a href="https://www.ansible.com">ansible</a>.
-More information in the repository of the
-<a href="https://github.com/monarc-project/ansible-ubuntu">ansible playbook</a>.</p>
-</div>
-<div id="monarc-architecture-schema" class="paragraph">
-<p><span class="image"><img src="images/monarc-architecture.png" alt="MONARC Architecture"></span></p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-<div class="title">Example of IPs and FQDNs:</div>
-<div class="ulist">
-<ul>
-<li>
-<p>172.18.14.73 - monarc-rpx.private.your.domain.com - my.monarc.lu</p>
-</li>
-<li>
-<p>172.18.13.71 - monarc-conf.private.your.domain.com</p>
-</li>
-<li>
-<p>172.18.13.72 - monarc-master.private.your.domain.com</p>
-</li>
-<li>
-<p>172.18.13.73 - monarc-fo01.private.your.domain.com</p>
-</li>
-<li>
-<p>172.18.13.74 - monarc-fo02.private.your.domain.com</p>
-</li>
-</ul>
-</div>
-</td>
-</tr>
-</table>
+<p><span class="image"><img src="images/ImpactsConsequences.png" alt="ImpactsConsequences"></span></p>
 </div>
 <div class="paragraph">
-<p>In this example, the <strong>FO</strong> server <em>monarc-fo01</em> hosts two distinct databases
-for two clients. An Apache Virtual Host is also configured for each clients. A
-user who wants to do a security analysis with MONARC will access to his MONARC
-account via the address <a href="https://my.monarc.lu/formation/" class="bare">https://my.monarc.lu/formation/</a></p>
-</div>
-<div class="paragraph">
-<p>Note that the <em>common</em> database of the <strong>BO</strong> is listening on <code>0.0.0.0:3306</code>.</p>
-</div>
-<div id="TLS-certificate" class="paragraph">
-<p>It is strongly recommended to use a TLS certificate on the reverse proxy in
-order to provide a HTTPS connection between Internet and the reverse proxy. In
-our example, a TLS certificate for my.monarc.lu is used.<br>
-Depending your setup you will ideally provide a HTTPS connection between the
-reverse proxy and the BO/FOs servers. If you want so, make sure to have:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>a certificate for each server, or;</p>
-</li>
-<li>
-<p>a wildcard certificate (e.g.: <em>*.private.your.domain.com</em>), or;</p>
-</li>
-<li>
-<p>a self-signed certificate.</p>
-</li>
-</ul>
-</div>
-<div class="sect3">
-<h4 id="network-requirements"><a class="anchor" href="#network-requirements"></a>3.1.1. Network requirements</h4>
-<div class="paragraph">
-<p>The configuration server (<strong>CFG</strong>) manages the configurations of the back
-office, reverse proxy and different front office(s) via SSH.</p>
-</div>
-<div class="paragraph">
-<p>The reverse proxy (<strong>RPX</strong>) should of course be available from Internet. The
-<strong>DNS</strong> is important for the reverse proxy in order to resolve the FQDNs of the
-servers inside the network.</p>
-</div>
-<div class="paragraph">
-<p>Through the reverse proxy you should be able to contact the <strong>BO</strong> and the
-<strong>FO</strong>s from Internet. No need to able able to contact the configuration server
-from the outside.</p>
-</div>
-<div class="paragraph">
-<p>The database <em>common</em> of the BO should also be available to the FO servers.</p>
-</div>
-<div class="paragraph">
-<p><a href="http://www.postfix.org">Postfix</a> should be installed on the BO and on the
-FO. Indeed, SMTP is used for the account creation and the password recovery.
-The easiest configuration is to set up Postfix for relaying emails through your
-internal mail server (<strong>SMTP</strong>).</p>
-</div>
+<p>The value of the CIA criteria is deduced automatically according to the ROLFP consequences or other consequences which have been associated with them (maximum value).
+For example: In the case of the abovementioned example, the “3” impact level on confidentiality is explained by the maximum ROLFP value regarding the confidentiality, which in this case is “3” in terms of consequence for the person.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="specifications-by-server"><a class="anchor" href="#specifications-by-server"></a>3.2. Specifications by server</h3>
-<table class="tableblock frame-all grid-all spread">
-<caption class="title">Specifications given only as advices.</caption>
-<colgroup>
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-<col style="width: 20%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top"></th>
-<th class="tableblock halign-left valign-top">Back office</th>
-<th class="tableblock halign-left valign-top">Front office</th>
-<th class="tableblock halign-left valign-top">Reverse proxy</th>
-<th class="tableblock halign-left valign-top">Configuration server</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">Number of vCPU</p></th>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>4</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>4</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
-</tr>
-<tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">RAM (GB)</p></th>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>16</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>16</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
-</tr>
-<tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">HDD (BG)</p></th>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>25</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>25</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
-</tr>
-<tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">Operating system</p></th>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>Ubuntu Server 16.04.2 LTS</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>Ubuntu Server 16.04.2 LTS</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>Ubuntu Server 16.04.2 LTS</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>Ubuntu Server 16.04.2 LTS</p>
-</div></div></td>
-</tr>
-<tr>
-<th class="tableblock halign-left valign-top"><p class="tableblock">Comment</p></th>
-<td class="tableblock halign-left valign-top"><div></div></td>
-<td class="tableblock halign-left valign-top"><div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>Not that powerful. But all connections (for the BO and FOs) will go through
-  it.</p>
-</div></div></td>
-<td class="tableblock halign-left valign-top"><div><div class="paragraph">
-<p>Not that powerful. Mainly used for the creation of clients on the different
-  FOs.</p>
-</div></div></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="requirements-and-deployment"><a class="anchor" href="#requirements-and-deployment"></a>4. Requirements and deployment</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="requirements"><a class="anchor" href="#requirements"></a>4.1. Requirements</h3>
-<div class="sect3">
-<h4 id="network"><a class="anchor" href="#network"></a>4.1.1. Network</h4>
+<h3 id="summary-of-assets-impact"><a class="anchor" href="#summary-of-assets-impact"></a>4.3. Summary of assets/impact</h3>
 <div class="paragraph">
-<p>The deployment on the different servers requires an Internet connection since
-the updates are retrieved from our GitHub repositories. If this is hardly
-possible in your environment due to an internal policy, you need to configure a
-proxy in order to access to Internet. This is an important requirement since all
-MONARC updates, including security updates, are provided from the Git
-repositories.</p>
+<p>The summary of the assets will provide editorial content that justifies the choice of assets and impact for the deliverable.</p>
 </div>
 <div class="paragraph">
-<p>The <a href="https://github.com/monarc-project/ansible-ubuntu">ansible playbook</a>
-also needs an Internet connection in order to dynamically deploy new clients.</p>
-</div>
-<div class="paragraph">
-<p>The servers (or the proxy) should be able to contact:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>github.com</p>
-</li>
-<li>
-<p>api.github.com</p>
-</li>
-<li>
-<p>pypi.python.org</p>
-</li>
-<li>
-<p>registry.npmjs.org</p>
-</li>
-<li>
-<p>deb.nodesource.com</p>
-</li>
-<li>
-<p>getcomposer.org</p>
-</li>
-<li>
-<p>.packagist.org</p>
-</li>
-<li>
-<p>packagist.phpcomposer.com</p>
-</li>
-<li>
-<p>letsencrypt.org</p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>To make the different servers use the proxy, specify the address of your proxy
-in the file <code>/home/ansible/.bash_profile</code>. For example:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">export http_proxy=http://proxy.your.domain.com:4128
-export https_proxy=http://proxy.your.domain.com:4128</code></pre>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="tls-certificate"><a class="anchor" href="#tls-certificate"></a>4.1.2. TLS certificate</h4>
-<div class="paragraph">
-<p>Is is strongly advised to use a TLS certificate on the reverse proxy. Depending
-on your configuration, you may need to secure the connection after the reverse
-proxy. See <a href="#TLS-certificate">this section</a>.</p>
-</div>
-<div class="paragraph">
-<p>The certificate <strong>yourcert.crt</strong> and the key file <strong>yourcert.key</strong> are by default
-located at <code>/etc/sslkeys/</code> (location configurable using the variables in the
-<code>inventory/hosts</code> file of the ansible playbook). You can also use a single
-<strong>.pem</strong> file, but make sure it includes the certificate and the key.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="system-and-software"><a class="anchor" href="#system-and-software"></a>4.1.3. System and software</h4>
-<div class="paragraph">
-<p>The deployment of MONARC has been tested on Ubuntu 16.04 LTS and Ubuntu 17.04.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Git;</p>
-</li>
-<li>
-<p>PHP (version 7.0 recommended);</p>
-<div class="ulist">
-<ul>
-<li>
-<p>PHP extensions: xml, mbstring, mysql, zip, unzip, mcrypt, intl, gettext,
-imagick, ssl</p>
-</li>
-<li>
-<p>PHP libraries are managed with composer;</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>JavaScript libraries are managed with npm;</p>
-</li>
-<li>
-<p>Apache 2;</p>
-</li>
-<li>
-<p>MariaDB;</p>
-</li>
-<li>
-<p>Postfix (SMTP is used for the account creation and password recovery).</p>
-</li>
-</ul>
-</div>
+<p><span class="image"><img src="images/SummaryAssetImpact.png" alt="SummaryAssetImpact"></span></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="deployment"><a class="anchor" href="#deployment"></a>4.2. Deployment</h3>
-<div class="sect3">
-<h4 id="only-the-front-office"><a class="anchor" href="#only-the-front-office"></a>4.2.1. Only the front office</h4>
-<div class="sect4">
-<h5 id="prepared-virtual-machine"><a class="anchor" href="#prepared-virtual-machine"></a>Prepared virtual machine</h5>
+<h3 id="deliverable-validation-of-the-context-2"><a class="anchor" href="#deliverable-validation-of-the-context-2"></a>4.4. Deliverable: Validation of the context</h3>
 <div class="paragraph">
-<p>A
-<a href="https://github.com/monarc-project/MonarcAppFO/releases/latest">virtual machine</a>
-for use with VirtualBox is available if you want to quickly test MONARC.</p>
+<p>This deliverable covers all the significant primary assets of the model, i.e. those on which the impact is reported as well as the asset summary.
+A form has to be filled in. When the user clicks on “Save”, a file in Word format is generated.</p>
 </div>
 <div class="paragraph">
-<p>The best way if you want to try an up-to-date version of MONARC.</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="manual-deployment"><a class="anchor" href="#manual-deployment"></a>Manual deployment</h5>
-<div class="paragraph">
-<p>Follow the instructions
-<a href="https://github.com/monarc-project/MonarcAppFO/tree/master/INSTALL">here</a>.</p>
-</div>
-</div>
-</div>
-<div class="sect3">
-<h4 id="the-back-office-and-the-front-office"><a class="anchor" href="#the-back-office-and-the-front-office"></a>4.2.2. The back office and the front office</h4>
-<div class="paragraph">
-<p>The whole architecture can be deployed with
-<a href="https://www.ansible.com">ansible</a>.</p>
-</div>
-<div class="paragraph">
-<p><span class="image"><img src="images/monarc-architecture.png" alt="MONARC Architecture"></span></p>
-</div>
-<div class="sect4">
-<h5 id="requirements-2"><a class="anchor" href="#requirements-2"></a>Requirements</h5>
-<div class="ulist">
-<ul>
-<li>
-<p>Git on all servers;</p>
-</li>
-<li>
-<p>Python 2 on all servers. Actually ansible 2.2 features only a tech preview of
-Python 3 support;</p>
-</li>
-<li>
-<p>dnspython on the configuration server;</p>
-</li>
-<li>
-<p>[ansible](<a href="https://www.ansible.com/" class="bare">https://www.ansible.com/</a>) must be installed on the configuration
-server;</p>
-</li>
-<li>
-<p>postfix on the BO and all FO servers.</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect4">
-<h5 id="usage"><a class="anchor" href="#usage"></a>Usage</h5>
-<div class="paragraph">
-<p>Install ansible on the configuration server and get the playbook for MONARC:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">sudo apt-get install jq
-sudo -H pip install ansible dnspython
-git clone https://github.com/monarc-project/ansible-ubuntu.git
-cd ansible-ubuntu/</code></pre>
-</div>
-</div>
-<div class="sect5">
-<h6 id="configuration"><a class="anchor" href="#configuration"></a>Configuration</h6>
-<div class="ulist">
-<ul>
-<li>
-<p>create a user named <strong>ansible</strong> on each server;</p>
-</li>
-<li>
-<p>generate a SSH key for the user <strong>ansible</strong> on the configuration server:</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>ssh-keygen -t rsa -C "your_email@example.com"</pre>
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>copy the public key on the other servers:</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>ssh-copy-id ansible@BO
-ssh-copy-id ansible@RPX
-ssh-copy-id ansible@FO</pre>
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>add the user <strong>ansible</strong> in the <strong>sudo</strong> group:</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>sudo usermod -aG sudo ansible</pre>
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>add the user <strong>www-data</strong> in the <strong>ansible</strong> group:</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>sudo usermod -aG ansible www-data</pre>
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>give the permission to ansible to use sudo without password:</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>echo 'ansible ALL=(ALL:ALL) NOPASSWD:ALL' &gt;&gt; /etc/sudoers</pre>
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>create a file <em>inventory/hosts</em>:</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>[dev]
-FO
-
-[dev:vars]
-master= "BO"
-publicHost= "monarc.example.com"
-
-[master]
-BO monarc_sql_password="password"
-
-[rpx]
-RPX.localhost
-
-[monarc:children]
-rpx
-master
-dev
-
-[monarc:vars]
-env_prefix=""
-clientDomain="monarc.example.com"
-emailFrom="info@example.com"
-github_auth_token="&lt;your-github-auth-token&gt;"
-protocol="https"
-certificate="sslcert.crt"
-certificatekey="sslcert.key"
-certificatechain="sslcert.crt"
-bourlalias="monarcbo"
-localDNS="example.net"</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>The variable <strong>monarc_sql_password</strong> is the password for the SQL database on
-the BO.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>finally, launch ansible:</p>
-</li>
-</ul>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre>cd playbook/
-ansible-playbook -i ../inventory/ monarc.yaml --user ansible</pre>
-</div>
-</div>
-<div class="paragraph">
-<p>ansible will install and configure the back office, the front office and the
-reverse proxy. Consequently the configuration server should be able to contact
-these servers through SSH.</p>
-</div>
-<div class="paragraph">
-<p>You will find more information
-<a href="https://github.com/monarc-project/ansible-ubuntu">in the ansible playbook</a>.</p>
-</div>
-</div>
-</div>
+<p><span class="image"><img src="images/DeliverableContext.png" alt="DeliverableContext"></span></p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="updates"><a class="anchor" href="#updates"></a>5. Updates</h2>
+<h2 id="risk-assessment-and-processing"><a class="anchor" href="#risk-assessment-and-processing"></a>5. Risk Assessment and processing</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Before updating MONARC it is strongly advised to configure database backup.
-For that you just need to create a file <code>data/backup/credentialsmysql.cnf</code>:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="ini">[client]
-host     = localhost
-user     = sql-monarc-user
-password = your-password
-socket   = /var/run/mysqld/mysqld.sock
-[mysql_upgrade]
-host     = localhost
-user     = sql-monarc-user
-password = your-password
-socket   = /var/run/mysqld/mysqld.sock
-basedir  = /usr</code></pre>
-</div>
+<p>By clicking on number 3, the following menu will appear:</p>
 </div>
 <div class="paragraph">
-<p>If this file is not present, a warning message will be displayed during the
-update.</p>
+<p><span class="image"><img src="images/MethodScreenStep3Detailed.png" alt="MethodScreenStep3Detailed"></span></p>
+</div>
+<div class="paragraph">
+<p>Clicking on the link will generate the main view of MONARC.</p>
 </div>
 <div class="sect2">
-<h3 id="system-update"><a class="anchor" href="#system-update"></a>5.1. System update</h3>
+<h3 id="risk-assessment-and-processing-2"><a class="anchor" href="#risk-assessment-and-processing-2"></a>5.1. Risk assessment and processing</h3>
 <div class="paragraph">
-<p>Keep the software of your distribution up-to-date (Apache, PHP, MariaDB,
-Postfix, etc.). At least the security updates from the GNU/Linux distribution.</p>
+<p>The previous phase provided the impact criteria information; now it is necessary to evaluate threats and vulnerabilities in order to calculate risk levels.</p>
+</div>
+<div class="sect3">
+<h4 id="assessment-of-the-probability-of-threats"><a class="anchor" href="#assessment-of-the-probability-of-threats"></a>5.1.1. Assessment of the probability of threats</h4>
+<div class="paragraph">
+<p>If the threat assessment made while establishing context provided probabilities, it is necessary to return to this screen to run all the threats of the model.
+Then, when reviewing the model’s risks, the default values may all be revised individually.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="assessment-of-vulnerabilities"><a class="anchor" href="#assessment-of-vulnerabilities"></a>5.1.2. Assessment of vulnerabilities</h4>
+<div class="paragraph">
+<p>The level of vulnerabilities depends directly on the security measures in place. In order to justify each value, it is necessary to describe all these measures in a factual manner.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="risk-processing"><a class="anchor" href="#risk-processing"></a>5.1.3. Risk processing</h4>
+<div class="paragraph">
+<p>Processing risks in MONARC involves, in similar fashion to ISO/IEC 27005, making a decision so as to process and not implement the measure in question.
+There are four ways to process the risk:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Accept: The risk is accepted in its current form. No additional action will be initiated.</p>
+</li>
+<li>
+<p>Modify/reduce: Measures are put in place to reduce the risk to an acceptable level. The reduction level is then evaluated in order to calculate the residual risk.</p>
+</li>
+<li>
+<p>Share: in the case of insurance, for example. This type of processing is specific, as it tends to reduce the risk impact and not the vulnerability. The residual risk cannot be calculated.</p>
+</li>
+<li>
+<p>Refuse: The cause of the risk is eliminated; after processing, the risk must not longer be present.</p>
+</li>
+</ol>
+</div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="monarc-update"><a class="anchor" href="#monarc-update"></a>5.2. MONARC update</h3>
+<h3 id="management-of-the-processing-plan"><a class="anchor" href="#management-of-the-processing-plan"></a>5.2. Management of the processing plan</h3>
 <div class="paragraph">
-<p>The master branch should always be working and it is recommended to install
-the project using this one.</p>
-</div>
-<div class="paragraph">
-<p>If you have already installed MONARC and want to update to a later version, you
-can use the provided script:</p>
-</div>
-<div class="listingblock">
-<div class="content">
-<pre class="CodeRay highlight"><code data-lang="bash">$ ./scripts/update-all.sh
-$ sudo systemctl restart apache2.service</code></pre>
-</div>
+<p>All risks covered by one of the four procedures described above are registered in the risk management plan, irrespective of whether they are information risks or operational risks.
+The calculation formula is not the same for both types of risk; therefore, it is the risk acceptance thresholds which establish the order of risk. Nevertheless, it is possible to reset the order of the risk processing plan before generating the final deliverable.</p>
 </div>
 <div class="paragraph">
-<p>Updates from the last stable release of MONARC will be retrieved.
-For more details the script will:</p>
+<p><span class="image"><img src="images/PTR.png" alt="Risk tratment plan"></span></p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>backup your databases in case the update fails (if enabled, as explained
-previously);</p>
-</li>
-<li>
-<p>check the presence of composer and if needed install it;</p>
-</li>
-<li>
-<p>retrieve the new code from the Git repositories from the last stable release
-(master branch):</p>
-<div class="ulist">
-<ul>
-<li>
-<p>pull updates for module/[MonarcCore, MonarcBO/MonarcFO] via Git or composer;</p>
-</li>
-<li>
-<p>pull updates for node_modules/[ng_anr, ng_backoffice/ng_client] via Git or
-Npm.</p>
-</li>
-</ul>
 </div>
-</li>
-<li>
-<p>run the appropriate database upgrade scripts (pathCore, pathBO, pathFO);</p>
-</li>
-<li>
-<p>update the translations.</p>
-</li>
-</ul>
+<div class="sect2">
+<h3 id="deliverable-end-report"><a class="anchor" href="#deliverable-end-report"></a>5.3. Deliverable: End report</h3>
+<div class="paragraph">
+<p>The deliverable contains a complete list of all the information gathered and entered in MONARC, including that contained in the two previous deliverables.
+A form has to be filled in. Moreover, it is possible to add a summary of the analysis which will be appended to the first five risks of the processing plan. When the user clicks on “Save”, a file in Word format is generated.</p>
 </div>
+<div class="paragraph">
+<p><span class="image"><img src="images/DeliverableFinal.png" alt="DeliverableFinal"></span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="implementation-and-monitoring"><a class="anchor" href="#implementation-and-monitoring"></a>6. Implementation and monitoring</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>By clicking on number 4, the following menu will appear:</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/MethodScreenStep4Detailed.png" alt="MethodScreenStep4Detailed"></span></p>
+</div>
+<div class="paragraph">
+<p>This view goes beyond the ISO/IEC 27005, as it enables the user to manage the follow-up to the implementation of the measures.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/PTRImplementation.png" alt="PTRImplementation"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>This is a recommandation established before.</p>
+</li>
+<li>
+<p>You can put a comment for the implementation of the recommendation.</p>
+</li>
+<li>
+<p>For each recommendation you can set a manager.</p>
+</li>
+<li>
+<p>For each recommenddation you can set a deadline.</p>
+</li>
+<li>
+<p>Click on this part to implement the recommenation and switch on the following view.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/RecommendationImplementation.png" alt="RecommendationImplementation"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Set the new control, now in place. It will replace the old one in the risk analysis and also replace the old current risk by the residual risk.</p>
+</li>
+<li>
+<p>Definitively validate the measure.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Follow the same procedure for each recommendation.
+After that go to your risk analysis and make a second iteration.</p>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2017-09-28 08:00:21 CEST
+Last updated 2017-10-19 13:01:26 CEST
 </div>
 </div>
 <script type="text/x-mathjax-config">
