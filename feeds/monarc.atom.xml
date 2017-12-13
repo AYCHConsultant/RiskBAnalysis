@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="http://monarc.lu/" rel="alternate"></link><link href="http://monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>http://monarc.lu/</id><updated>2017-10-27T00:00:00+02:00</updated><entry><title>MONARC 2.0.4 released</title><link href="http://monarc.lu/news/2017/10/27/monarc-204-released/" rel="alternate"></link><published>2017-10-27T00:00:00+02:00</published><updated>2017-10-27T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-10-27:/news/2017/10/27/monarc-204-released/</id><summary type="html">&lt;p&gt;Release 2.0.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.0.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including several&amp;nbsp;fixes.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="http://monarc.lu/" rel="alternate"></link><link href="http://monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>http://monarc.lu/</id><updated>2017-12-04T00:00:00+01:00</updated><entry><title>MONARC 2.1.0 released</title><link href="http://monarc.lu/news/2017/12/04/monarc-210-released/" rel="alternate"></link><published>2017-12-04T00:00:00+01:00</published><updated>2017-12-04T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-12-04:/news/2017/12/04/monarc-210-released/</id><summary type="html">&lt;p&gt;Release 2.1.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.1.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
+&lt;h2 id="enhancement"&gt;Enhancement&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;cleaning of the initial database&amp;nbsp;structure.&lt;/li&gt;
+&lt;li&gt;split database model and&amp;nbsp;data.&lt;/li&gt;
+&lt;li&gt;simplify the panel to create new &lt;span class="caps"&gt;MONARC&lt;/span&gt;&amp;nbsp;clients.&lt;/li&gt;
+&lt;li&gt;improved the table of &lt;span class="caps"&gt;MONARC&lt;/span&gt; clients of the administration&amp;nbsp;panel.&lt;/li&gt;
+&lt;li&gt;removed all useless column of the &amp;#8216;clients&amp;#8217;&amp;nbsp;table.&lt;/li&gt;
+&lt;li&gt;removed cities and countries tables in the&amp;nbsp;database.&lt;/li&gt;
+&lt;li&gt;added a condition to hide/show probability field on Threats&amp;nbsp;assessment.&lt;/li&gt;
+&lt;li&gt;it is now possible to export a whole analysis (or an asset) in &lt;span class="caps"&gt;JSON&lt;/span&gt; or as an
+  encrypted &lt;span class="caps"&gt;JSON&lt;/span&gt; file. Analysis exported with the legacy system can still be
+  imported in &lt;span class="caps"&gt;MONARC&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;it is now mandatory to specify a level of permissions when creating a new&amp;nbsp;user.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fix"&gt;Fix&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;minor fixes in the forms of the user profile&amp;nbsp;page.&lt;/li&gt;
+&lt;li&gt;minor translations&amp;nbsp;fixes.&lt;/li&gt;
+&lt;li&gt;fixed a bug that prevented users to update password without the
+  password recovery&amp;nbsp;feature.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.1.0"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.0.4 released</title><link href="http://monarc.lu/news/2017/10/27/monarc-204-released/" rel="alternate"></link><published>2017-10-27T00:00:00+02:00</published><updated>2017-10-27T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-10-27:/news/2017/10/27/monarc-204-released/</id><summary type="html">&lt;p&gt;Release 2.0.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.0.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including several&amp;nbsp;fixes.&lt;/p&gt;
 &lt;h1 id="fix"&gt;Fix&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;fix a bug with salted passwords that prevented users to update their
