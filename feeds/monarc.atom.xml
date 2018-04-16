@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="http://monarc.lu/" rel="alternate"></link><link href="http://monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>http://monarc.lu/</id><updated>2017-12-04T00:00:00+01:00</updated><entry><title>MONARC 2.1.0 released</title><link href="http://monarc.lu/news/2017/12/04/monarc-210-released/" rel="alternate"></link><published>2017-12-04T00:00:00+01:00</published><updated>2017-12-04T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-12-04:/news/2017/12/04/monarc-210-released/</id><summary type="html">&lt;p&gt;Release 2.1.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.1.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="http://monarc.lu/" rel="alternate"></link><link href="http://monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>http://monarc.lu/</id><updated>2018-02-14T00:00:00+01:00</updated><entry><title>MONARC 2.2.1 released</title><link href="http://monarc.lu/news/2018/02/14/monarc-221-released/" rel="alternate"></link><published>2018-02-14T00:00:00+01:00</published><updated>2018-02-14T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2018-02-14:/news/2018/02/14/monarc-221-released/</id><summary type="html">&lt;p&gt;Release 2.2.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.2.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Lack of information in the final deliverable&amp;nbsp;(#65)&lt;/li&gt;
+&lt;li&gt;Update template of third&amp;nbsp;deliveries&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class="caps"&gt;CID&lt;/span&gt;/&lt;span class="caps"&gt;CIA&lt;/span&gt; translation in generateImpactsAppreciation for the deliveries&amp;nbsp;(zm-client/#3)&lt;/li&gt;
+&lt;li&gt;Removed useless dependencies to City&amp;nbsp;entity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.2.1"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>Internships opportunities</title><link href="http://monarc.lu/news/2018/02/01/internships-opportunities/" rel="alternate"></link><published>2018-02-01T00:00:00+01:00</published><updated>2018-02-01T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2018-02-01:/news/2018/02/01/internships-opportunities/</id><summary type="html">&lt;p&gt;Internships&amp;nbsp;opportunities&lt;/p&gt;</summary><content type="html">&lt;h3 id="contribute-to-monarc"&gt;Contribute to &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;We currently have internships opportunities for passionate students willing to
+participate in the development of &lt;span class="caps"&gt;MONARC&lt;/span&gt;.
+You will find more information &lt;a href="/internship"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="internships"></category></entry><entry><title>MONARC 2.2.0 released</title><link href="http://monarc.lu/news/2018/02/01/monarc-220-released/" rel="alternate"></link><published>2018-02-01T00:00:00+01:00</published><updated>2018-02-01T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2018-02-01:/news/2018/02/01/monarc-220-released/</id><summary type="html">&lt;p&gt;Release 2.2.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.2.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;generate deliverable on 4th step of method&amp;nbsp;(#51)&lt;/li&gt;
+&lt;li&gt;export all of risk analysis data&amp;nbsp;(#28)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;option of export tables in a csv file&amp;nbsp;(#52)&lt;/li&gt;
+&lt;li&gt;show version &lt;span class="caps"&gt;MONARC&lt;/span&gt; on left panel&amp;nbsp;(#50)&lt;/li&gt;
+&lt;li&gt;ensures new users (of the back office) are created with a level of
+  permissions&amp;nbsp;(#48)&lt;/li&gt;
+&lt;li&gt;the back office displays the appropriate view based on the user permissions&amp;nbsp;(#48)&lt;/li&gt;
+&lt;li&gt;set the selected attribute for the search filter of models in the back&amp;nbsp;office&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;user operational risk - tag&amp;nbsp;(#55)&lt;/li&gt;
+&lt;li&gt;operational risk - tag&amp;nbsp;(#54)&lt;/li&gt;
+&lt;li&gt;detach a tag from an asset&amp;nbsp;(#53)&lt;/li&gt;
+&lt;li&gt;operational risk importation&amp;nbsp;(#64)&lt;/li&gt;
+&lt;li&gt;various minor fixes in the back office (management of&amp;nbsp;models)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;This release includes a consequent changes in the database of the back office
+and in the synchronization process of the deliveries templates (between the
+back office and the different clients instances). If you are using a back
+office, be careful to also update your ansible playbook
+(&lt;a href="http://monarc.lu/technical-guide/#update-monarc-when-connected-to-a-back-office"&gt;instructions&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.2.0"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.1.0 released</title><link href="http://monarc.lu/news/2017/12/04/monarc-210-released/" rel="alternate"></link><published>2017-12-04T00:00:00+01:00</published><updated>2017-12-04T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2017-12-04:/news/2017/12/04/monarc-210-released/</id><summary type="html">&lt;p&gt;Release 2.1.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.1.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
 &lt;h2 id="enhancement"&gt;Enhancement&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;cleaning of the initial database&amp;nbsp;structure.&lt;/li&gt;
