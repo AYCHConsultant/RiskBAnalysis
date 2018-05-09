@@ -517,7 +517,7 @@ table.CodeRay td.code>pre{padding:0}
 <div class="details">
 <span id="author" class="author">CASES Luxembourg</span><br>
 <span id="email" class="email"><a href="mailto:info@cases.lu">info@cases.lu</a></span><br>
-<span id="revnumber">version 2017-11-27</span>
+<span id="revnumber">version 2018-05-09</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
@@ -539,8 +539,7 @@ table.CodeRay td.code>pre{padding:0}
 </li>
 <li><a href="#client-environment-administration">3. Client Environment Administration</a>
 <ul class="sectlevel2">
-<li><a href="#administration-of-users">3.1. Administration of users</a></li>
-<li><a href="#user-account">3.2. User account</a></li>
+<li><a href="#administration">3.1. Administration</a></li>
 </ul>
 </li>
 <li><a href="#analysis-management">4. Analysis Management</a>
@@ -692,6 +691,20 @@ documentation.</p>
 </tr>
 </tbody>
 </table>
+<table class="tableblock frame-none grid-none spread">
+<colgroup>
+<col style="width: 12.5%;">
+<col style="width: 87.5%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-center valign-top"><p class="tableblock"><span class="image"><img src="images/IconExport.png" alt="Export"></span></p></td>
+<td class="tableblock halign-left valign-top"><div><div class="paragraph">
+<p>Export any table (.csv) or graphic (.png).</p>
+</div></div></td>
+</tr>
+</tbody>
+</table>
 <div style="page-break-after: always;"></div>
 </div>
 </div>
@@ -724,7 +737,7 @@ there are already several and according to the state of progress of the analysis
 <p>Navigation bar</p>
 </li>
 <li>
-<p>Administration of the client environment. Click on <code>Manage users</code>, <code>Account</code> or <code>Logout</code> (see <a href="#client-environment-administration">Client Environment Administration</a>).</p>
+<p>Administration of the client environment. Click on <code>Administration</code>, <code>Account</code>, <code>Interface language</code> or <code>Logout</code> (see <a href="#client-environment-administration">Client Environment Administration</a>).</p>
 </li>
 </ol>
 </div>
@@ -744,7 +757,7 @@ there are already several and according to the state of progress of the analysis
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
-<p><code>CASES Model</code>: Proposes available models in the knowledge bases. This option has at least two choices, <code>Modelling CASES</code>,
+<p><code>List of risks models</code>: Proposes available models in the knowledge bases. This option has at least two choices, <code>Modelling CASES</code>,
 this is the default template made available by the MONARC editor. It provides sufficient knowledge bases to start a risk analysis.
 This option should be used by default to start a new risk analysis. There is also the choice <code>Blank model</code> which is a completely empty model.
 This template is typically used temporarily as a <em>Sandbox</em> to test the contents of an import file, for example.</p>
@@ -757,9 +770,6 @@ This template is typically used temporarily as a <em>Sandbox</em> to test the co
 </li>
 <li>
 <p>Options <strong><em>a</em></strong> or <strong><em>b</em></strong> before being selected. It gets the source.</p>
-</li>
-<li>
-<p><code>Show inherent operational risks</code>. (See <a href="#operational-risks">Operational Risks</a>)</p>
 </li>
 <li>
 <p>Select the preferred language for this new risk analysis. MONARC only present the languages actually available in the selected source.</p>
@@ -843,22 +853,6 @@ An administrator does not have the access rights on the risk analysis (but he ca
 </li>
 </ul>
 </div>
-<div class="paragraph">
-<p>By risk analysis, there are 3 types of rights:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>No access.</p>
-</li>
-<li>
-<p>Read only.</p>
-</li>
-<li>
-<p>Read and write.</p>
-</li>
-</ul>
-</div>
 <div class="imageblock" style="text-align: center">
 <div class="content">
 <img src="images/AdminBar.png" alt="Admin Bar" width="20%">
@@ -868,9 +862,25 @@ An administrator does not have the access rights on the risk analysis (but he ca
 <ol class="arabic">
 <li>
 <p>Administration (Enable only for administrator users)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Manage users (see <a href="#manage-users">Manage users</a>)</p>
 </li>
 <li>
-<p>User account</p>
+<p>Organization (see <a href="#organization">Organization</a>)</p>
+</li>
+<li>
+<p>Deliverable templates (see <a href="#deliverable-templates">Deliverable templates</a>)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>User account (see <a href="#user-account">User account</a>)</p>
+</li>
+<li>
+<p>Interface language (see <a href="#interface-language">Interface language</a>)</p>
 </li>
 <li>
 <p>Logout</p>
@@ -878,9 +888,11 @@ An administrator does not have the access rights on the risk analysis (but he ca
 </ol>
 </div>
 <div class="sect2">
-<h3 id="administration-of-users"><a class="anchor" href="#administration-of-users"></a>3.1. Administration of users</h3>
+<h3 id="administration"><a class="anchor" href="#administration"></a>3.1. Administration</h3>
 <div class="sect3">
-<h4 id="list-of-users"><a class="anchor" href="#list-of-users"></a>3.1.1. List of users</h4>
+<h4 id="manage-users"><a class="anchor" href="#manage-users"></a>3.1.1. Manage users</h4>
+<div class="sect4">
+<h5 id="list-of-users"><a class="anchor" href="#list-of-users"></a>List of users</h5>
 <div class="paragraph">
 <p><span class="image"><img src="images/UserList.png" alt="User List"></span></p>
 </div>
@@ -904,8 +916,8 @@ An administrator does not have the access rights on the risk analysis (but he ca
 </ol>
 </div>
 </div>
-<div class="sect3">
-<h4 id="user-rights-and-information"><a class="anchor" href="#user-rights-and-information"></a>3.1.2. User rights and information</h4>
+<div class="sect4">
+<h5 id="user-rights-and-information"><a class="anchor" href="#user-rights-and-information"></a>User rights and information</h5>
 <div class="paragraph">
 <p>After clicking on the icon <span class="image"><img src="images/Edit.png" alt="Edit" width="3%"></span>, the following screen appears:</p>
 </div>
@@ -921,14 +933,324 @@ An administrator does not have the access rights on the risk analysis (but he ca
 <p>Selection of profiles <code>Administrator</code> or/and <code>User</code>.</p>
 </li>
 <li>
-<p>Management of user rights by analysis.</p>
+<p>Management of user rights by analysis. By risk analysis, there are 3 types of rights:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>No access.</p>
+</li>
+<li>
+<p>Read only.</p>
+</li>
+<li>
+<p>Read and write.</p>
+</li>
+</ul>
+</div>
 </li>
 </ol>
 </div>
 </div>
 </div>
-<div class="sect2">
-<h3 id="user-account"><a class="anchor" href="#user-account"></a>3.2. User account</h3>
+<div class="sect3">
+<h4 id="organization"><a class="anchor" href="#organization"></a>3.1.2. Organization</h4>
+<div class="paragraph">
+<p><span class="image"><img src="images/Organization.png" alt="Organization"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Manage general information about the entity (MONARC account).</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="deliverable-templates"><a class="anchor" href="#deliverable-templates"></a>3.1.3. Deliverable templates</h4>
+<div class="paragraph">
+<p>It&#8217;s possible with MONARC to custom by organization the different deliveries which are generated.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/DeliveriesManagementView.png" alt="DeliveriesManagementView"></span></p>
+</div>
+<div class="paragraph">
+<p>This view summarize all the available templates. There are some actions available on template :</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>Download</code> a template.</p>
+</li>
+<li>
+<p><code>Edit</code> a template. The view for editing a template is the same as one for adding one. This view is explained below.</p>
+</li>
+<li>
+<p><code>Delete</code> a template. This action permanently delete the template for all the users of the company.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock warning">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-warning" title="Warning"></i>
+</td>
+<td class="content">
+The default template are only downloadable, they can&#8217;t be modified or deleted.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p><code>Add</code> a new template :</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/AddNewTemplate.png" alt="AddNewTemplate"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Select the <code>Category</code> of the template. The category is linked to the different step of the method.</p>
+</li>
+<li>
+<p>Select the <code>Language</code> associated to the template and the next description to fill.</p>
+</li>
+<li>
+<p>Fill the <code>Description</code> of the new template.</p>
+</li>
+<li>
+<p>Click on the grey area or drag and drop a document on the grey area to <code>Upload</code> the template.</p>
+</li>
+</ol>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+You don&#8217;t have to fill all the languages, one language is sufficient.
+</td>
+</tr>
+</table>
+</div>
+<div class="sect4">
+<h5 id="list-of-tags"><a class="anchor" href="#list-of-tags"></a>List of tags</h5>
+<div class="paragraph">
+<p>MONARC allows you to add your deliveries template. The template is a document which use different tags.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+All the deliveries in MONARC have to be set in Word Format (.docx)
+</td>
+</tr>
+</table>
+</div>
+<div class="sect5">
+<h6 id="list-of-tags-for-the-layout-of-the-document"><a class="anchor" href="#list-of-tags-for-the-layout-of-the-document"></a>List of tags for the layout of the document:</h6>
+<div class="paragraph">
+<p>All these tags are mainly set in the form depending of the delivery.</p>
+</div>
+<div class="paragraph">
+<p><span class="image"><img src="images/DeliveriesLayoutTag.png" alt="DeliveriesLayoutTag"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>${STATE}</code>: State of the document with prefilled value (draft or final).</p>
+</li>
+<li>
+<p><code>${VERSION}</code>: Version of the document.</p>
+</li>
+<li>
+<p><code>${CLASSIFICATION}</code>: Classification of the document.</p>
+</li>
+<li>
+<p><code>${DOCUMENT}</code>: Name of the document.</p>
+</li>
+<li>
+<p><code>${CLIENT}</code>: Name of the customer.</p>
+</li>
+<li>
+<p><code>${SMILE}</code>: Name of the security consultant who do the analysis.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>There are also two others tags which are generated by the application :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>${COMPANY}</code>: Name of the company which come from MONARC, it&#8217;s stored in the database and editable in the application.</p>
+</li>
+<li>
+<p><code>${DATE}</code>: Date of the generation of the document. Field auto-generated by MONARC.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="list-of-the-tags-from-the-context-establishment"><a class="anchor" href="#list-of-the-tags-from-the-context-establishment"></a>List of the tags from the context establishment:</h6>
+<div class="paragraph">
+<p><span class="image"><img src="images/DeliveriesContextEstablishmentTag.png" alt="DeliveriesContextEstablishmentTag"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>${CONTEXT_ANA_RISK}</code>: Free text which comes from the step: “Risk analysis context”.</p>
+</li>
+<li>
+<p>List of the tags from "Evaluation of Trends and Threat, and synthesis":</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>${SYNTH_EVAL_THREAT}</code>: The summary of the step: “Evaluation of Trends and Threat, and synthesis”.</p>
+</li>
+<li>
+<p><code>${TABLE_THREATS}</code>: A summary of the threat assessment.</p>
+</li>
+<li>
+<p><code>${TABLE_EVAL_TEND}</code>: The trend assessment with the questions which are answered.</p>
+</li>
+<li>
+<p><code>${TABLE_THREATS_FULL}</code>: The full threat assessment.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><code>${CONTEXT_GEST_RISK}</code>: Free text which comes from the step: “Risk management organization”.</p>
+</li>
+<li>
+<p>List of the tags from “Definition of the risk evaluation criteria”:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><code>${SCALE_IMPACT}</code>: The table of the impact scale.</p>
+</li>
+<li>
+<p><code>${SCALE_THREAT}</code>: The table of the threats scale.</p>
+</li>
+<li>
+<p><code>${SCALE_VULN}</code>: The table of the vulnerabilities scale.</p>
+</li>
+<li>
+<p><code>${TABLE_RISKS}</code>: The table of the information risk acceptance threshold.</p>
+</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect5">
+<h6 id="list-of-tags-for-the-context-modelling"><a class="anchor" href="#list-of-tags-for-the-context-modelling"></a>List of tags for the context modelling:</h6>
+<div class="paragraph">
+<p><span class="image"><img src="images/DeliveriesContextModelingTag.png" alt="DeliveriesContextModelingTag"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>${SYNTH_ACTIF}</code>: Free text which comes from the step: “synthesis of assets/impacts”.</p>
+</li>
+</ol>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>${IMPACTS_APPRECIATION}</code>: A table which is generated by MONARC. It represents the impacts/consequences of the top level assets.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="list-of-the-tags-for-the-evaluation-and-treatment-of-risks"><a class="anchor" href="#list-of-the-tags-for-the-evaluation-and-treatment-of-risks"></a>List of the tags for the Evaluation and treatment of risks:</h6>
+<div class="paragraph">
+<p><span class="image"><img src="images/DeliveriesEvaluationRiskTag.png" alt="DeliveriesEvaluationRiskTag"></span></p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><code>${SUMMARY_EVAL_RISK}</code>: Free text which comes from the form.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>List of the tags generated by MONARC :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>${CURRENT_RISK_MAP}</code>: Table which represents the distribution of the current risks.</p>
+</li>
+<li>
+<p><code>${TARGET_RISK_MAP}</code>: Table which represents the distribution of the targeted risks.</p>
+</li>
+<li>
+<p><code>${DISTRIB_EVAL_RISK}</code>: A text which represents the distribution of the risks by levels.</p>
+</li>
+<li>
+<p><code>${GRAPH_EVAL_RISK}</code>: A graph which represents the <code>${DISTRIB_EVAL_RISK}</code></p>
+</li>
+<li>
+<p><code>${RISKS_RECO_FULL}</code>: A table which represents the recommendation for the information risks</p>
+</li>
+<li>
+<p><code>${OPRISKS_RECO_FULL}</code>: A table which represents the recommendation for the operational risks</p>
+</li>
+<li>
+<p><code>${TABLE_AUDIT_INSTANCES}</code>: A table with all the informational risks.</p>
+</li>
+<li>
+<p><code>${TABLE_AUDIT_RISKS_OP}</code>: A table with all the operational risks.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="list-of-the-tags-for-implementation-and-monitoring"><a class="anchor" href="#list-of-the-tags-for-implementation-and-monitoring"></a>List of the tags for Implementation and monitoring:</h6>
+<div class="paragraph">
+<p>List of tags generated by MONARC :</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>${TABLE_IMPLEMENTATION_PLAN}</code>: Table which shows all the recommendations to implement.</p>
+</li>
+<li>
+<p><code>${TABLE_IMPLEMENTATION_HISTORY}</code>: Table which shows all the implemented recommendations.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect5">
+<h6 id="list-of-the-tags-for-the-annexes"><a class="anchor" href="#list-of-the-tags-for-the-annexes"></a>List of the tags for the annexes:</h6>
+<div class="paragraph">
+<p>Some tags are linked to other functionality of MONARC like:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><code>${TABLE_INTERVIEW}</code>: The list of all the interviews.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="user-account"><a class="anchor" href="#user-account"></a>3.1.4. User account</h4>
 <div class="paragraph">
 <p>This view allows you to:</p>
 </div>
@@ -943,8 +1265,30 @@ An administrator does not have the access rights on the risk analysis (but he ca
 <li>
 <p>Change the password. Password complexity is required.</p>
 </li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="interface-language"><a class="anchor" href="#interface-language"></a>3.1.5. Interface language</h4>
+<div class="paragraph">
+<p>There are 4 interface language:</p>
+</div>
+<div class="ulist">
+<ul>
 <li>
-<p>Change the language of the consultation.</p>
+<p>French</p>
+</li>
+<li>
+<p>English</p>
+</li>
+<li>
+<p>German</p>
+</li>
+<li>
+<p>Dutch</p>
+</li>
+</ul>
+</div>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -957,13 +1301,8 @@ This action only changes the interfaces language (The risk analysis language is 
 </tr>
 </table>
 </div>
-</li>
-<li>
-<p>Manage general information about the entity (MONARC account).</p>
-</li>
-</ol>
-</div>
 <div style="page-break-after: always;"></div>
+</div>
 </div>
 </div>
 </div>
@@ -1195,7 +1534,7 @@ The risk table is modified from the knowledge base.
 <p>Starts the pop-up that allows you to modify most of the parameters of an asset (see <a href="#edit-an-asset">Edit an asset</a>).</p>
 </li>
 <li>
-<p>Create a copy of the asset named <code>Name (copy # 1)</code>, which is then renamed with the <code>Edit Asset</code> option.</p>
+<p>Create a copy of the asset named <code>Name (copy #)</code>, which is then renamed with the <code>Edit Asset</code> option.</p>
 </li>
 <li>
 <p>Launches asset export pop-up (see <a href="#exporting-an-asset">Exporting an asset</a>).</p>
@@ -1231,9 +1570,6 @@ Delete action is definitive, even if the asset is used in the analysis.
 <ol class="arabic">
 <li>
 <p>To create an asset, it is also possible to import it (see <a href="#importing-an-asset">Importing an asset</a>).</p>
-</li>
-<li>
-<p><code>Language</code>: This option cannot be used, the default language of the analysis is imposed.</p>
 </li>
 <li>
 <p><code>Name</code>: This name must be unique for the analysis.</p>
@@ -1310,9 +1646,6 @@ Delete action is definitive, even if the asset is used in the analysis.
 </div>
 <div class="ulist">
 <ul>
-<li>
-<p><code>Language</code></p>
-</li>
 <li>
 <p><code>Scope</code></p>
 </li>
@@ -1429,22 +1762,10 @@ The import of an uncontrolled asset can be destructive for the current analysis.
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p><code>Custom password</code>: Possibility to encrypt the generated file with a symmetric password that will be necessary during the import.</p>
+<p><code>Custom password</code>: Possibility to encrypt the generated JSON file with a symmetric password that will be necessary during the import.</p>
 </li>
 <li>
-<p><code>Without password</code>: Default password sets by tool.</p>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-This option ensures only the file integrity.
-</td>
-</tr>
-</table>
-</div>
+<p><code>Without password</code>: JSON file decoded.</p>
 </li>
 </ol>
 </div>
@@ -1526,9 +1847,6 @@ This option ensures only the file integrity.
 </li>
 <li>
 <p>Ability to sort of most columns of the table.</p>
-</li>
-<li>
-<p>Selection of the page in the list of results.</p>
 </li>
 </ol>
 </div>
@@ -1799,9 +2117,6 @@ To hide the consequences that will not consider. Click on the icon <span class="
 </li>
 <li>
 <p>Ability to sort of most columns of the table.</p>
-</li>
-<li>
-<p>Selection of the page in the list of results.</p>
 </li>
 </ol>
 </div>
@@ -2453,8 +2768,8 @@ After that go to your risk analysis and make a second iteration.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 2017-11-27<br>
-Last updated 2017-11-27 13:02:32 CET
+Version 2018-05-09<br>
+Last updated 2018-05-09 15:32:51 CEST
 </div>
 </div>
 <script type="text/x-mathjax-config">

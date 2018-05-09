@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="http://monarc.lu/" rel="alternate"></link><link href="http://monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>http://monarc.lu/</id><updated>2018-02-14T00:00:00+01:00</updated><entry><title>MONARC 2.2.1 released</title><link href="http://monarc.lu/news/2018/02/14/monarc-221-released/" rel="alternate"></link><published>2018-02-14T00:00:00+01:00</published><updated>2018-02-14T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2018-02-14:/news/2018/02/14/monarc-221-released/</id><summary type="html">&lt;p&gt;Release 2.2.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.2.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="http://monarc.lu/" rel="alternate"></link><link href="http://monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>http://monarc.lu/</id><updated>2018-04-27T00:00:00+02:00</updated><entry><title>MONARC 2.3.0 released</title><link href="http://monarc.lu/news/2018/04/27/monarc-230-released/" rel="alternate"></link><published>2018-04-27T00:00:00+02:00</published><updated>2018-04-27T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2018-04-27:/news/2018/04/27/monarc-230-released/</id><summary type="html">&lt;p&gt;Release 2.3.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.3.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;an administrator of a &lt;span class="caps"&gt;MONARC&lt;/span&gt; front office instance is now able to set custom
+  templates for deliveries per step. Check out the
+  &lt;a href="http://monarc.lu/user-guide/#modifying-the-deliveries"&gt;documentation&lt;/a&gt;
+  for more&amp;nbsp;information.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;default deliveries templates were&amp;nbsp;improved;&lt;/li&gt;
+&lt;li&gt;the section dedicated to the management of the organization has been moved in
+  a dedicated&amp;nbsp;view;&lt;/li&gt;
+&lt;li&gt;improved the switching between the different available&amp;nbsp;languages;&lt;/li&gt;
+&lt;li&gt;improved the generation of the&amp;nbsp;deliveries.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;fixed a bug in the generation of the deliveries&amp;nbsp;(#84);&lt;/li&gt;
+&lt;li&gt;Inconsistency of Threat and Vulnerability Tables&amp;nbsp;(#82);&lt;/li&gt;
+&lt;li&gt;various minor&amp;nbsp;fixes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.3.0"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.2.1 released</title><link href="http://monarc.lu/news/2018/02/14/monarc-221-released/" rel="alternate"></link><published>2018-02-14T00:00:00+01:00</published><updated>2018-02-14T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:monarc.lu,2018-02-14:/news/2018/02/14/monarc-221-released/</id><summary type="html">&lt;p&gt;Release 2.2.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.2.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
 &lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Lack of information in the final deliverable&amp;nbsp;(#65)&lt;/li&gt;
