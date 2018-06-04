@@ -17,6 +17,8 @@ https://www.monarc.lu/vulnerability-disclosure/
 https://www.monarc.lu/product/
 https://www.monarc.lu/service/
 https://www.monarc.lu/trainings/
+https://www.monarc.lu/news/2018/05/30/monarc-241-released/
+https://www.monarc.lu/news/2018/05/14/monarc-240-released/
 https://www.monarc.lu/news/2018/04/27/monarc-230-released/
 https://www.monarc.lu/news/2018/02/14/monarc-221-released/
 https://www.monarc.lu/news/2018/02/01/internships-opportunities/

@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu//feeds/all.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2018-04-27T00:00:00+02:00</updated><entry><title>MONARC 2.3.0 released</title><link href="https://www.monarc.lu/news/2018/04/27/monarc-230-released/" rel="alternate"></link><published>2018-04-27T00:00:00+02:00</published><updated>2018-04-27T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-04-27:/news/2018/04/27/monarc-230-released/</id><summary type="html">&lt;p&gt;Release 2.3.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.3.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu//feeds/all.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2018-05-30T00:00:00+02:00</updated><entry><title>MONARC 2.4.1 released</title><link href="https://www.monarc.lu/news/2018/05/30/monarc-241-released/" rel="alternate"></link><published>2018-05-30T00:00:00+02:00</published><updated>2018-05-30T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-05-30:/news/2018/05/30/monarc-241-released/</id><summary type="html">&lt;p&gt;Release 2.4.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.4.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;the dashboard has been improved with more interactive&amp;nbsp;graphs;&lt;/li&gt;
+&lt;li&gt;the dashboard view is now part of the analysis. The home page of &lt;span class="caps"&gt;MONARC&lt;/span&gt;
+  simply lists the&amp;nbsp;projects.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Removal of a recommendation on same risk of different asset of the same type&amp;nbsp;(#92);&lt;/li&gt;
+&lt;li&gt;Order of operational risks&amp;nbsp;(#88).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.4.1"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.4.0 released</title><link href="https://www.monarc.lu/news/2018/05/14/monarc-240-released/" rel="alternate"></link><published>2018-05-14T00:00:00+02:00</published><updated>2018-05-14T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-05-14:/news/2018/05/14/monarc-240-released/</id><summary type="html">&lt;p&gt;Release 2.4.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.4.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;the dashboard of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been entirely revamped and is now using
+  &lt;a href="https://d3js.org/"&gt;D3.js&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;restart from an existing analysis&amp;nbsp;(#87).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.4.0"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.3.0 released</title><link href="https://www.monarc.lu/news/2018/04/27/monarc-230-released/" rel="alternate"></link><published>2018-04-27T00:00:00+02:00</published><updated>2018-04-27T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-04-27:/news/2018/04/27/monarc-230-released/</id><summary type="html">&lt;p&gt;Release 2.3.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.3.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released including multiple bug fixes and&amp;nbsp;enhancements.&lt;/p&gt;
 &lt;h3 id="new"&gt;New&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;an administrator of a &lt;span class="caps"&gt;MONARC&lt;/span&gt; front office instance is now able to set custom
