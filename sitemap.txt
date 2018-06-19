@@ -10,13 +10,17 @@ https://www.monarc.lu/documentation/
 https://www.monarc.lu/download/
 https://www.monarc.lu/
 https://www.monarc.lu/community/
+https://www.monarc.lu/comparison-between-monarc-and-different-risk-management-methods/
 https://www.monarc.lu/contribution-guidelines/
 https://www.monarc.lu/internship/
 https://www.monarc.lu/licenses-and-copyright/
+https://www.monarc.lu/publications/
+https://www.monarc.lu/table-comparison-between-monarc-and-different-risk-management-methods/
 https://www.monarc.lu/vulnerability-disclosure/
 https://www.monarc.lu/product/
 https://www.monarc.lu/service/
 https://www.monarc.lu/trainings/
+https://www.monarc.lu/news/2018/06/08/monarc-242-released/
 https://www.monarc.lu/news/2018/05/30/monarc-241-released/
 https://www.monarc.lu/news/2018/05/14/monarc-240-released/
 https://www.monarc.lu/news/2018/04/27/monarc-230-released/
