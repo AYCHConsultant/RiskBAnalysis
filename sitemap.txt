@@ -15,6 +15,7 @@ https://www.monarc.lu/contribution-guidelines/
 https://www.monarc.lu/internship/
 https://www.monarc.lu/licenses-and-copyright/
 https://www.monarc.lu/publications/
+https://www.monarc.lu/risk-assessment-optimisation-with-monarc/
 https://www.monarc.lu/table-comparison-between-monarc-and-different-risk-management-methods/
 https://www.monarc.lu/vulnerability-disclosure/
 https://www.monarc.lu/product/
