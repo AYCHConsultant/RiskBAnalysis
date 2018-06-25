@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>MONARC 2.0.2 released - MONARC</title>
+    <title>Contribution&nbsp;guidelines - MONARC</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,22 +10,16 @@
 
     <link href="https://www.monarc.lu/assets/images/monarc-logo.png" rel="icon">
 
-<link rel="canonical" href="https://www.monarc.lu/news/2017/10/10/monarc-202-released/">
+<link rel="canonical" href="https://www.monarc.lu/pages/community/contribution-guidelines/">
 
         <meta name="author" content="security made in Lëtzebuerg (SMILE) g.i.e." />
-        <meta name="keywords" content="monarc,new-release" />
-        <meta name="description" content="Release 2.0.2 of MONARC" />
+        <meta name="description" content="The GitHub issue tracker is for bug reports and feature requests. Please do not use it to ask questions about how to use MONARC. You can contribute to MONARC by: Reporting bugs Suggesting enhancements or new features Improving the documentation If you want to contribute to the code you can …" />
 
-        <meta property="og:site_name" content="MONARC" />
-        <meta property="og:type" content="article"/>
-        <meta property="og:title" content="MONARC 2.0.2 released"/>
-        <meta property="og:url" content="https://www.monarc.lu/news/2017/10/10/monarc-202-released/"/>
-        <meta property="og:description" content="Release 2.0.2 of MONARC"/>
-        <meta property="article:published_time" content="2017-10-10" />
-            <meta property="article:section" content="monarc" />
-            <meta property="article:tag" content="monarc" />
-            <meta property="article:tag" content="new-release" />
-            <meta property="article:author" content="security made in Lëtzebuerg (SMILE) g.i.e." />
+    <meta property="og:site_name" content="MONARC" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Contribution guidelines"/>
+    <meta property="og:url" content="https://www.monarc.lu/pages/community/contribution-guidelines/"/>
+    <meta property="og:description" content="The GitHub issue tracker is for bug reports and feature requests. Please do not use it to ask questions about how to use MONARC. You can contribute to MONARC by: Reporting bugs Suggesting enhancements or new features Improving the documentation If you want to contribute to the code you can …" />
 
 
     <!-- Bootstrap -->
@@ -41,8 +35,6 @@
 
 
 
-        <link href="https://www.monarc.lu/feeds/monarc.atom.xml" type="application/atom+xml" rel="alternate"
-              title="MONARC monarc ATOM Feed"/>
 
 </head>
 <body>
@@ -81,60 +73,60 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-    <section id="content">
-        <article>
-            <header class="page-header">
-                <h1>
-                    <a href="https://www.monarc.lu/news/2017/10/10/monarc-202-released/"
-                       rel="bookmark"
-                       title="Permalink to MONARC 2.0.2 released">
-                        <span class="caps">MONARC</span> 2.0.2&nbsp;released
-                    </a>
-                </h1>
-            </header>
-            <div class="entry-content">
-                <div class="panel">
-                    <div class="panel-body">
-<footer class="post-info">
-    <span class="label label-default">Date</span>
-    <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-10-10T00:00:00+02:00"> mar 10 octobre 2017</time>
-    </span>
-
-
-
-
-
-<span class="label label-default">Tags</span>
-	<a href="https://www.monarc.lu/tag/monarc.html">monarc</a>
-        /
-	<a href="https://www.monarc.lu/tag/new-release.html">new-release</a>
-    
-</footer><!-- /.post-info -->                    </div>
-                </div>
-                <p>Version 2.0.2 of <span class="caps">MONARC</span> has been released including multiple bug fixes and&nbsp;enhancements.</p>
-<p>You can download the new virtual machine
-<a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.0.2">here</a>.</p>
-<h1 id="new">New</h1>
+    <section id="content" class="body">
+        <h1 class="entry-title">Contribution&nbsp;guidelines</h1>
+        
+        <div class="entry-content">
+            <p>The GitHub issue tracker is for bug reports and feature requests.
+Please do not use it to ask questions about how to use <span class="caps">MONARC</span>.</p>
+<p>You can contribute to <span class="caps">MONARC</span>&nbsp;by:</p>
 <ul>
-<li><span class="caps">MONARC</span> is now available in&nbsp;Dutch.</li>
+<li>Reporting <a href="https://github.com/monarc-project/MonarcAppFO/issues/new?labels=bug">bugs</a></li>
+<li>Suggesting enhancements or <a href="https://github.com/monarc-project/MonarcAppFO/issues/new?labels=feature+request">new&nbsp;features</a></li>
+<li>Improving the <a href="https://github.com/monarc-project/MonarcAppFO/issues/new?labels=documentation">documentation</a></li>
 </ul>
-<h1 id="enhancement">Enhancement</h1>
+<p>If you want to contribute to the code you can use our
+<a href="https://github.com/monarc-project/MonarcAppFO/tree/master/vagrant">Vagrant development environment</a>.
+This is more&nbsp;convenient.</p>
+<h2 id="bug-reports">Bug&nbsp;reports</h2>
+<p>Please be aware of the following things when filing bug&nbsp;reports:</p>
+<ol>
+<li>Avoid raising duplicate issues. Use the GitHub issue search feature
+   to check whether your bug report has been mentioned in the&nbsp;past.</li>
+<li>When filing bug reports about exceptions or tracebacks, please include the
+   <em>complete</em> traceback (logs of Apache,&nbsp;etc.).</li>
+<li>Make sure you provide a suitable amount of information. This
+   means you should provide: <strong>how to reproduce the issue</strong>,
+   <strong>what you expected to happen</strong>, <strong>what actually happens</strong>,
+   <strong>what version of <span class="caps">MONARC</span> you are using</strong> and  <strong>how you installed it</strong>.</li>
+</ol>
+<p>Did you write a patch that fixes a&nbsp;bug?</p>
 <ul>
-<li>updated German&nbsp;translations.</li>
-<li>updated the font used for the images in the generated&nbsp;reports.</li>
-<li>minor improvements in the&nbsp;configuration.</li>
+<li>Open a new GitHub pull request with the&nbsp;patch.</li>
+<li>Ensure the pull request description clearly describes the problem and the
+  solution. Include the relevant issue number if&nbsp;applicable.</li>
 </ul>
-<h1 id="fix">Fix</h1>
+<p>If the bug concerns a
+<a href="/pages/community/vulnerability-disclosure">security issue</a>.</p>
+<h2 id="new-feature-requests">New feature&nbsp;requests</h2>
+<p>Ideas of new features should always be discussed in an new issue on&nbsp;GitHub.</p>
+<p>Do you intend to add a new feature or change an existing&nbsp;one?</p>
 <ul>
-<li>Lost operational risk when importing from <span class="caps">MONARC</span> Common <span class="caps">DB</span>&nbsp;(#32)</li>
-<li><span class="caps">PHP</span> Notice: Use of undefined constant i&nbsp;(#33)</li>
+<li>Suggest your change in an issue with the tag <a href="https://github.com/monarc-project/MonarcAppFO/issues/new?labels=feature+request">feature request</a>.</li>
+<li>Open a pull request if you have collected positive feedback and can implement it&nbsp;yourself.</li>
 </ul>
-            </div>
-            <!-- /.entry-content -->
-        </article>
+<h2 id="contribution-to-the-documentation">Contribution to the&nbsp;documentation</h2>
+<p>Contributions to the documentation are also always&nbsp;welcome.</p>
+<p>Please uses
+<a href="https://daringfireball.net/projects/markdown/">Markdown</a>.
+<a href="https://www.emacswiki.org/emacs/MarkdownMode">MarkdownMode</a> is of great help
+for that. If you are using the <span class="caps">ATOM</span> editor, you should also find some Markdown&nbsp;extensions.</p>
+<p>Do not version binary files (<em>.docx</em> document, etc.). for the
+documentation or anything else. It easier to follow the changes of plain text&nbsp;files.</p>
+<p><a href="http://pandoc.org/">Pandoc</a> is a wonderful tool to convert files from one
+markup format into&nbsp;another.</p>
+        </div>
     </section>
-
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
