@@ -13,13 +13,13 @@
 <link rel="canonical" href="../product/">
 
         <meta name="author" content="security made in Lëtzebuerg (SMILE) g.i.e." />
-        <meta name="description" content="Table of contents: Features summary MONARC Instance Management MONARC User management Import and export Features summary There are 2 different MONARC installations possible: MONARC Instance Management (also known as MONARC BackOffice or BO) MONARC (Also known as MONARC FrontOffice or FO) The table below summarises the functionality of both versions …" />
+        <meta name="description" content="Table of contents: Features summary MONARC Instance Management MONARC User management Import and export th:not(:first-child) { text-align: center; } td:not(:first-child) { text-align: center; color: #ffd500; text-shadow: 1px 0 grey, -1px 0 grey, 0 -1px grey, 0 1px grey; } Features summary There are 2 different MONARC installations possible: MONARC Instance …" />
 
     <meta property="og:site_name" content="MONARC" />
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Product"/>
     <meta property="og:url" content="../product/"/>
-    <meta property="og:description" content="Table of contents: Features summary MONARC Instance Management MONARC User management Import and export Features summary There are 2 different MONARC installations possible: MONARC Instance Management (also known as MONARC BackOffice or BO) MONARC (Also known as MONARC FrontOffice or FO) The table below summarises the functionality of both versions …" />
+    <meta property="og:description" content="Table of contents: Features summary MONARC Instance Management MONARC User management Import and export th:not(:first-child) { text-align: center; } td:not(:first-child) { text-align: center; color: #ffd500; text-shadow: 1px 0 grey, -1px 0 grey, 0 -1px grey, 0 1px grey; } Features summary There are 2 different MONARC installations possible: MONARC Instance …" />
 
 
 
@@ -92,6 +92,18 @@ MONARC            </a>
 </li>
 </ul>
 </div>
+<style>
+th:not(:first-child) {
+  text-align: center;
+}
+
+td:not(:first-child)  {
+  text-align: center;
+  color: #ffd500;
+  text-shadow: 1px 0 grey, -1px 0 grey, 0 -1px grey, 0 1px grey;
+}
+</style>
+
 <h2 id="features-summary">Features&nbsp;summary</h2>
 <p>There are 2 different <a href="https://github.com/monarc-project/MonarcAppFO"><span class="caps">MONARC</span></a>
 installations&nbsp;possible:</p>
@@ -104,55 +116,56 @@ installations&nbsp;possible:</p>
     <thead>
         <tr>
             <th>Features</th>
-            <th><span class="caps">MONARC</span> software</th>
-            <th><span class="caps">MONARC</span> Instance Management (back office)</th>
+            <th><span class="caps">MONARC</span> FrontOffice</th>
+            <th><span class="caps">MONARC</span> BackOffice</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Creation, edition, management of risk analysis</td>
-            <td>&#9989;</td>
+            <td>&#10004;</td>
             <td></td>
         </tr>
         <tr>
             <td>Reports generation</td>
-            <td>&#9989;</td>
+            <td>&#10004;</td>
             <td></td>
         </tr>
         <tr>
             <td>Import and export of risk analysis</td>
-            <td>&#9989;</td>
+            <td>&#10004;</td>
             <td></td>
         </tr>
         <tr>
             <td>Fine management of permissions per projects</td>
-            <td>&#9989;</td>
+            <td>&#10004;</td>
             <td></td>
         </tr>
         <tr>
             <td>Management of users per projects</td>
-            <td>&#9989;</td>
+            <td>&#10004;</td>
             <td></td>
         </tr>
         <tr>
             <td>Database of risk models</td>
-            <td>&#9989;</td>
-            <td>&#9989;</td>
+            <td>&#10004;</td>
+            <td>&#10004;</td>
         </tr>
         <tr>
             <td>Management of risk models</td>
-            <td>&#9989;</td>
-            <td>&#9989; (accross multiple <span class="caps">MONARC</span> instances)</td>
+            <td>&#10004;</td>
+            <td>&#10004;<span style="color:#555555;text-shadow:none"> **</span></td>
         </tr>
         <tr>
             <td>Creation and removal of <span class="caps">MONARC</span> instances</td>
             <td></td>
-            <td>&#9989;</td>
+            <td>&#10004;</td>
         </tr>
     </tbody>
 </table>
 
-<p>The <span class="caps">MONARC</span> Instance Management is appropriate for big organizations or state
+<p><span style="font-size:small">**<i> Accross multiple <span class="caps">MONARC</span> FrontOffice<i/></span></p>
+<p><br/>The <span class="caps">MONARC</span> Instance Management is appropriate for big organizations or state
 organizations. More derails about the architecture
 <a href="/technical-guide#monarc-and-the-back-office">here</a>.</p>
 <p>Since <span class="caps">MONARC</span> is an open-source project, you can also have a look at our
