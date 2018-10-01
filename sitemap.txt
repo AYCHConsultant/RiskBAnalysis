@@ -23,6 +23,7 @@ https://www.monarc.lu/service/
 https://www.monarc.lu/publications/table-of-comparison-between-monarc-and-different-risk-management-methods/
 https://www.monarc.lu/trainings/
 https://www.monarc.lu/community/vulnerability-disclosure/
+https://www.monarc.lu/news/2018/09/07/monarc-271-released/
 https://www.monarc.lu/news/2018/08/22/monarc-270-released/
 https://www.monarc.lu/news/2018/07/20/monarc-260-released/
 https://www.monarc.lu/news/2018/07/04/monarc-250-released/

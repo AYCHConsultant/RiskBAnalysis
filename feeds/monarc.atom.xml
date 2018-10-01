@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2018-08-22T00:00:00+02:00</updated><entry><title>MONARC 2.7.0 released</title><link href="https://www.monarc.lu/news/2018/08/22/monarc-270-released/" rel="alternate"></link><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-08-22:/news/2018/08/22/monarc-270-released/</id><summary type="html">&lt;p&gt;Release 2.7.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2018-09-07T00:00:00+02:00</updated><entry><title>MONARC 2.7.1 released</title><link href="https://www.monarc.lu/news/2018/09/07/monarc-271-released/" rel="alternate"></link><published>2018-09-07T00:00:00+02:00</published><updated>2018-09-07T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-09-07:/news/2018/09/07/monarc-271-released/</id><summary type="html">&lt;p&gt;Release 2.7.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;inform user which rights he has on each risk analysis (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/131"&gt;#131&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;display read/write access of the currently connected user on the home page (list of analysis) (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/130"&gt;#130&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;improvements to the statement of applicability (&lt;span class="caps"&gt;SOA&lt;/span&gt;) module (speed&amp;nbsp;improvements);&lt;/li&gt;
+&lt;li&gt;minor improvements to the home&amp;nbsp;page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;impossible to download a report when user has no wright access (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/133"&gt;#133&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;name of columns of the evaluation scales are not displayed when a user has not write access (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/132"&gt;#132&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;problem with &lt;span class="caps"&gt;UTF&lt;/span&gt;-8 characters in &lt;span class="caps"&gt;CSV&lt;/span&gt; export&amp;nbsp;files.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to all the contributors and participants of the last training for all
+their comments. We will continue to work on your&amp;nbsp;suggestions.&lt;/p&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.7.1"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We recently
+&lt;a href="https://www.monarc.lu/download"&gt;improved the installation instructions&lt;/a&gt; in
+order to let you deploy &lt;span class="caps"&gt;MONARC&lt;/span&gt; more&amp;nbsp;easily.&lt;/p&gt;
+&lt;p&gt;Finally we have completed the &lt;a href="https://www.monarc.lu/documentation"&gt;documentation&lt;/a&gt;
+with new sections dedicated to &lt;em&gt;Common issues&lt;/em&gt; and &lt;em&gt;Security considerations&lt;/em&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.7.0 released</title><link href="https://www.monarc.lu/news/2018/08/22/monarc-270-released/" rel="alternate"></link><published>2018-08-22T00:00:00+02:00</published><updated>2018-08-22T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-08-22:/news/2018/08/22/monarc-270-released/</id><summary type="html">&lt;p&gt;Release 2.7.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
 &lt;h3 id="new"&gt;New&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;this release introduces the statement of applicability (&lt;span class="caps"&gt;SOA&lt;/span&gt;) module for your

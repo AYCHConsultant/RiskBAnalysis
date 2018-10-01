@@ -13,13 +13,13 @@
 <link rel="canonical" href="../download/">
 
         <meta name="author" content="security made in Lëtzebuerg (SMILE) g.i.e." />
-        <meta name="description" content="Table of contents: Install MONARC Virtual machine Importing the image Configuration of VirtualBox Run the server Vagrant Ansible Use MONARC Risk Analysis Demo Install MONARC The source code of MONARC is available on GitHub. Virtual machine A virtual machine for VirtualBox is available on the release page (.ova file). This …" />
+        <meta name="description" content="Table of contents: Installation of MONARC Source code Virtual machine Importing the image Configuration of VirtualBox Run the server Vagrant Ansible Usage of MONARC Import a risk analysis demo Installation of MONARC Source code The source code of MONARC is available on GitHub. For installation instructions from the source code …" />
 
     <meta property="og:site_name" content="MONARC" />
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Download"/>
     <meta property="og:url" content="../download/"/>
-    <meta property="og:description" content="Table of contents: Install MONARC Virtual machine Importing the image Configuration of VirtualBox Run the server Vagrant Ansible Use MONARC Risk Analysis Demo Install MONARC The source code of MONARC is available on GitHub. Virtual machine A virtual machine for VirtualBox is available on the release page (.ova file). This …" />
+    <meta property="og:description" content="Table of contents: Installation of MONARC Source code Virtual machine Importing the image Configuration of VirtualBox Run the server Vagrant Ansible Usage of MONARC Import a risk analysis demo Installation of MONARC Source code The source code of MONARC is available on GitHub. For installation instructions from the source code …" />
 
 
 
@@ -83,7 +83,8 @@ MONARC            </a>
         
         <div class="entry-content">
             <div class="toc"><span class="toctitle">Table of contents:</span><ul>
-<li><a href="#install-monarc">Install <span class="caps">MONARC</span></a><ul>
+<li><a href="#installation-of-monarc">Installation of <span class="caps">MONARC</span></a><ul>
+<li><a href="#source-code">Source&nbsp;code</a></li>
 <li><a href="#virtual-machine">Virtual machine</a><ul>
 <li><a href="#importing-the-image">Importing the&nbsp;image</a></li>
 <li><a href="#configuration-of-virtualbox">Configuration of&nbsp;VirtualBox</a></li>
@@ -94,27 +95,30 @@ MONARC            </a>
 <li><a href="#ansible">Ansible</a></li>
 </ul>
 </li>
-<li><a href="#use-monarc">Use <span class="caps">MONARC</span></a><ul>
-<li><a href="#risk-analysis-demo">Risk Analysis&nbsp;Demo</a></li>
+<li><a href="#usage-of-monarc">Usage of <span class="caps">MONARC</span></a><ul>
+<li><a href="#import-a-risk-analysis-demo">Import a risk analysis&nbsp;demo</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<h2 id="install-monarc">Install <span class="caps">MONARC</span></h2>
+<h2 id="installation-of-monarc">Installation of <span class="caps">MONARC</span></h2>
+<h3 id="source-code">Source&nbsp;code</h3>
 <p>The source code of <span class="caps">MONARC</span> is available on
 <a href="https://github.com/monarc-project">GitHub</a>.</p>
+<p>For installation instructions from the source code see
+<a href="https://github.com/monarc-project/MonarcAppFO/tree/master/INSTALL">here</a>.</p>
 <h3 id="virtual-machine">Virtual&nbsp;machine</h3>
-<p>A virtual machine for VirtualBox is
+<p>If you would like to test <span class="caps">MONARC</span> and don’t want to do an installation,
+a virtual machine for VirtualBox is
 <a href="https://github.com/monarc-project/MonarcAppFO/releases/latest">available on the release page</a>
-(.ova file). <br>
-This is the easiest method if you want to quickly use <span class="caps">MONARC</span> on your&nbsp;computer.</p>
+(.ova&nbsp;file).   </p>
 <p>You can also generate generate your virtual machine with the latest version of
 <span class="caps">MONARC</span>. More information
 <a href="https://github.com/monarc-project/monarc-packer">here</a>.</p>
 <h4 id="importing-the-image">Importing the&nbsp;image</h4>
 <p>You will need a tool for virtualization which accepts .ova files.
-In this guide, <a href="https://www.virtualbox.">VirtualBox</a> will be&nbsp;used.</p>
-<p>Import the image in your application by either just double-click on the .ova
+In this guide, <a href="https://www.virtualbox.org">VirtualBox</a> will be&nbsp;used.</p>
+<p>Import the image by either just double-click on the .ova
 file (if VirtualBox is associated with .ova files) or launch VirtualBox and
 click on File -&gt; Import&nbsp;appliance.</p>
 <h4 id="configuration-of-virtualbox">Configuration of&nbsp;VirtualBox</h4>
@@ -135,12 +139,18 @@ selecting &#8220;demo_monarc&#8221; and clicking&nbsp;start.</p>
 <p><img alt="monarc_cli" src="/assets/images/trainings/vm_launched.JPG" title="vm launched"></p>
 <h3 id="vagrant">Vagrant</h3>
 <p>Deploy <span class="caps">MONARC</span> with <a href="https://github.com/monarc-project/MonarcAppFO/tree/master/vagrant">Vagrant</a>.</p>
+<p>Vagrant is convenient to use in order to setup your development&nbsp;environment.</p>
 <h3 id="ansible">Ansible</h3>
 <p>Deploy the whole architecture with <a href="https://github.com/monarc-project/ansible-ubuntu">Ansible</a>.</p>
-<h2 id="use-monarc">Use <span class="caps">MONARC</span></h2>
-<p>Just open your browser and go to this address:&nbsp;http://10.0.0.101/</p>
-<p>Login / Password : admin@admin.test /&nbsp;admin</p>
-<h3 id="risk-analysis-demo">Risk Analysis&nbsp;Demo</h3>
+<h2 id="usage-of-monarc">Usage of <span class="caps">MONARC</span></h2>
+<p>Open your Web browser and go to this address (depending on your
+configuration):<br>
+<a href="http://10.0.0.101">http://10.0.0.101</a></p>
+<ul>
+<li>Login:&nbsp;admin@admin.test</li>
+<li>Password:&nbsp;admin</li>
+</ul>
+<h3 id="import-a-risk-analysis-demo">Import a risk analysis&nbsp;demo</h3>
 <ol>
 <li><a href="/documentation/user-guide/#creating-a-risk-analysis">Create a risk analysis in&nbsp;French</a></li>
 <li>Download the risk analysis file <a href="/assets/files/monarc-training/fr/myprint.json" download>(myprint.json)</a></li>
@@ -170,11 +180,11 @@ selecting &#8220;demo_monarc&#8221; and clicking&nbsp;start.</p>
 <li class="list-group-item">
   <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
   <ul class="list-group" id="recentposts">
+    <li class="list-group-item"><a href="../news/2018/09/07/monarc-271-released/"><span class="caps">MONARC</span> 2.7.1&nbsp;released</a></li>
     <li class="list-group-item"><a href="../news/2018/08/22/monarc-270-released/"><span class="caps">MONARC</span> 2.7.0&nbsp;released</a></li>
     <li class="list-group-item"><a href="../news/2018/07/20/monarc-260-released/"><span class="caps">MONARC</span> 2.6.0&nbsp;released</a></li>
     <li class="list-group-item"><a href="../news/2018/07/04/monarc-250-released/"><span class="caps">MONARC</span> 2.5.0&nbsp;released</a></li>
     <li class="list-group-item"><a href="../news/2018/06/08/monarc-242-released/"><span class="caps">MONARC</span> 2.4.2&nbsp;released</a></li>
-    <li class="list-group-item"><a href="../news/2018/05/30/monarc-241-released/"><span class="caps">MONARC</span> 2.4.1&nbsp;released</a></li>
   </ul>
 </li>
 <!-- End Sidebar/Recent Posts -->
