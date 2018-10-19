@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu//feeds/all.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2018-09-07T00:00:00+02:00</updated><entry><title>MONARC 2.7.1 released</title><link href="https://www.monarc.lu/news/2018/09/07/monarc-271-released/" rel="alternate"></link><published>2018-09-07T00:00:00+02:00</published><updated>2018-09-07T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-09-07:/news/2018/09/07/monarc-271-released/</id><summary type="html">&lt;p&gt;Release 2.7.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu//feeds/all.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2018-10-08T00:00:00+02:00</updated><entry><title>MONARC 2.7.2 released</title><link href="https://www.monarc.lu/news/2018/10/08/monarc-272-released/" rel="alternate"></link><published>2018-10-08T00:00:00+02:00</published><updated>2018-10-08T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-10-08:/news/2018/10/08/monarc-272-released/</id><summary type="html">&lt;p&gt;Release 2.7.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class="caps"&gt;MONARC&lt;/span&gt; is now compatible with &lt;span class="caps"&gt;PHP&lt;/span&gt; 7.2
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/89"&gt;#89&lt;/a&gt;).
+  Future &lt;span class="caps"&gt;MONARC&lt;/span&gt; virtual machines will be based on Ubuntu Bionic &lt;span class="caps"&gt;LTS&lt;/span&gt;;&lt;/li&gt;
+&lt;li&gt;Reports not generated in user&amp;#8217;s language or selected templates
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/129"&gt;#129&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;All your rights have been revoked. Please contact the manager for your
+  organization
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/110"&gt;#110&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;various improvements and minor fixes in the back&amp;nbsp;end.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.7.2"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.7.1 released</title><link href="https://www.monarc.lu/news/2018/09/07/monarc-271-released/" rel="alternate"></link><published>2018-09-07T00:00:00+02:00</published><updated>2018-09-07T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-09-07:/news/2018/09/07/monarc-271-released/</id><summary type="html">&lt;p&gt;Release 2.7.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
 &lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;inform user which rights he has on each risk analysis (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/131"&gt;#131&lt;/a&gt;);&lt;/li&gt;
