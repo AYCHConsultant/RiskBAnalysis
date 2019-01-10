@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2018-10-08T00:00:00+02:00</updated><entry><title>MONARC 2.7.2 released</title><link href="https://www.monarc.lu/news/2018/10/08/monarc-272-released/" rel="alternate"></link><published>2018-10-08T00:00:00+02:00</published><updated>2018-10-08T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-10-08:/news/2018/10/08/monarc-272-released/</id><summary type="html">&lt;p&gt;Release 2.7.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu//feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2018-11-27T00:00:00+01:00</updated><entry><title>MONARC 2.7.4 released</title><link href="https://www.monarc.lu/news/2018/11/27/monarc-274-released/" rel="alternate"></link><published>2018-11-27T00:00:00+01:00</published><updated>2018-11-27T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-11-27:/news/2018/11/27/monarc-274-released/</id><summary type="html">&lt;p&gt;Release 2.7.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;fixes.&lt;/p&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed risk target calculation &lt;a href="https://github.com/monarc-project/zm-core/commit/199db6c1a59fe6cfead19bcc63d99c0b52f711aa"&gt;199db6c&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Fixed a typo in SoaCategorySuperClass &lt;a href="https://github.com/monarc-project/zm-core/commit/ea72881d6a99acb0b658d7cb17d02a9338da5116"&gt;ea72881&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Fixed an issue when operational raw risks are hidden before an import &lt;a href="https://github.com/monarc-project/zm-client/commit/f382c91fe624ea12d0c5b67c897879c359f09dd8"&gt;f382c91&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Fixed some minor issues in the views &lt;a href="https://github.com/monarc-project/ng-anr/commit/cbbd94e7a019e7fa7dd8acf11334e9d4290166a7"&gt;cbbd94e&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Fixed several bugs in the reports generation (in the PHPWord library) caused
+  by some special&amp;nbsp;characters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.7.4"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="training"&gt;Training&lt;/h2&gt;
+&lt;p&gt;Do not forget our next &lt;a href="/trainings"&gt;training&lt;/a&gt; in December.
+You can still&amp;nbsp;register.&lt;/p&gt;
+&lt;script type="text/javascript" src="https://OCTUXDH-modules.xing-events.com/resources/js/amiandoExport.js"&gt;&lt;/script&gt;
+
+&lt;iframe src="https://OCTUXDH-modules.xing-events.com/OCTUXDH.html?viewType=iframe&amp;distributionChannel=CHANNEL_IFRAME&amp;language=en&amp;useDefaults=false&amp;resizeIFrame=true" frameborder="0" width="650px" id="_amiandoIFrame3398677"&gt;&lt;p&gt;This page requires frame support. Please use a frame compatible browser to see the ticket sales&amp;nbsp;module.&lt;/p&gt;&lt;p&gt; Try out the &lt;a href="https://en.xing-events.com/"&gt;online event registration system&lt;/a&gt; from &lt;span class="caps"&gt;XING&lt;/span&gt;&amp;nbsp;Events.&lt;/p&gt;&lt;/iframe&gt;
+
+&lt;p&gt;More participants thanks to &lt;a href="https://en.xing-events.com?viralRefId=OCTUXDH&amp;utm_campaign=ev-OCTUXDH&amp;utm_medium=viral&amp;utm_source=EventWebsite&amp;utm_content=TextLinkBottom&amp;utm_term=text-link" target="_blank" alt="XING Events" title="XING Events"&gt;online event management solutions&lt;/a&gt; from &lt;span class="caps"&gt;XING&lt;/span&gt;&amp;nbsp;Events.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.7.3 released</title><link href="https://www.monarc.lu/news/2018/10/25/monarc-273-released/" rel="alternate"></link><published>2018-10-25T00:00:00+02:00</published><updated>2018-10-25T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-10-25:/news/2018/10/25/monarc-273-released/</id><summary type="html">&lt;p&gt;Release 2.7.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;added backend capability for the bulk creation of&amp;nbsp;objects;&lt;/li&gt;
+&lt;li&gt;various improvements and harmonization of the backend&amp;nbsp;code;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sort order for operational risks in final deliverable annex D (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/111"&gt;#111&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Upload of template deliverable fails in Dutch (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/141"&gt;#141&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;SOA&lt;/span&gt; is now included in&amp;nbsp;snapshots.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.7.3"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.7.2 released</title><link href="https://www.monarc.lu/news/2018/10/08/monarc-272-released/" rel="alternate"></link><published>2018-10-08T00:00:00+02:00</published><updated>2018-10-08T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-10-08:/news/2018/10/08/monarc-272-released/</id><summary type="html">&lt;p&gt;Release 2.7.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been&amp;nbsp;released.&lt;/p&gt;
 &lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class="caps"&gt;MONARC&lt;/span&gt; is now compatible with &lt;span class="caps"&gt;PHP&lt;/span&gt; 7.2
