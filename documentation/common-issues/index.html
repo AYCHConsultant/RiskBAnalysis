@@ -13,13 +13,13 @@
 <link rel="canonical" href="../../documentation/common-issues/">
 
         <meta name="author" content="security made in Lëtzebuerg (SMILE) g.i.e." />
-        <meta name="description" content="Table of contents: Problem after an update Not receiving password reset emails GitHub token problem during MONARC update A blank screen is displayed Is it possible for a back office administrator to change the administrator user of a MONARC instance? Problem after an update After an update you may need …" />
+        <meta name="description" content="Table of contents: Problem after an update Not receiving password reset emails GitHub token problem during MONARC update A blank screen is displayed Is it possible for a back office administrator to change the administrator user of a MONARC instance? Adding a new administrator without access to the MONARC Web …" />
 
     <meta property="og:site_name" content="MONARC" />
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Common issues"/>
     <meta property="og:url" content="../../documentation/common-issues/"/>
-    <meta property="og:description" content="Table of contents: Problem after an update Not receiving password reset emails GitHub token problem during MONARC update A blank screen is displayed Is it possible for a back office administrator to change the administrator user of a MONARC instance? Problem after an update After an update you may need …" />
+    <meta property="og:description" content="Table of contents: Problem after an update Not receiving password reset emails GitHub token problem during MONARC update A blank screen is displayed Is it possible for a back office administrator to change the administrator user of a MONARC instance? Adding a new administrator without access to the MONARC Web …" />
 
 
 
@@ -34,8 +34,6 @@
 
         <link href="../../feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="MONARC ATOM Feed"/>
-
-
 
 
 </head>
@@ -58,9 +56,9 @@ MONARC            </a>
                     <li><a href="/news">News</a></li>
                     <li><a href="/product">Product</a></li>
                     <li><a href="/service">Service</a></li>
+                    <li><a href="/community">Community</a></li>
                     <li><a href="/publications">Publications</a></li>
                     <li><a href="/documentation">Documentation</a></li>
-                    <li><a href="/community">Community</a></li>
                     <li><a href="/download">Download</a></li>
                     <li><a href="/trainings">Trainings</a></li>
                     <li><a href="/internship">Work with us</a></li>
@@ -89,6 +87,7 @@ MONARC            </a>
 <li><a href="#github-token-problem-during-monarc-update">GitHub token problem during <span class="caps">MONARC</span>&nbsp;update</a></li>
 <li><a href="#a-blank-screen-is-displayed">A blank screen is&nbsp;displayed</a></li>
 <li><a href="#is-it-possible-for-a-back-office-administrator-to-change-the-administrator-user-of-a-monarc-instance">Is it possible for a back office administrator to change the administrator user of a <span class="caps">MONARC</span>&nbsp;instance?</a></li>
+<li><a href="#adding-a-new-administrator-without-access-to-the-monarc-web-interface">Adding a new administrator without access to the <span class="caps">MONARC</span> Web&nbsp;interface</a></li>
 </ul>
 </div>
 <h2 id="problem-after-an-update">Problem after an&nbsp;update</h2>
@@ -138,6 +137,27 @@ instances (clients) on a <span class="caps">MONARC</span> server. The administra
 The management of users on a specific <span class="caps">MONARC</span> instance is the responsibility
 of administrator of the instance.
 The administrator of the back office should not be responsible of&nbsp;this.</p>
+<h2 id="adding-a-new-administrator-without-access-to-the-monarc-web-interface">Adding a new administrator without access to the <span class="caps">MONARC</span> Web&nbsp;interface</h2>
+<p>Considering, for example, that an employee with administrator rights on <span class="caps">MONARC</span>
+recently left the&nbsp;company.</p>
+<p>You must have a <span class="caps">SSH</span> access to the server where <span class="caps">MONARC</span> is&nbsp;installed.</p>
+<p><strong>Situation&nbsp;1</strong></p>
+<p>If you are using <span class="caps">MONARC</span> without back office, simply run this command at the
+root of <span class="caps">MONARC</span>:</p>
+<div class="highlight"><pre><span></span>$ php ./vendor/robmorgan/phinx/bin/phinx seed:run -c ./module/MonarcFO/migrations/phinx.php
+</pre></div>
+
+
+<p>This will create a new administrator account with the login <em>admin@admin.test</em>
+and the password <em>admin</em>.</p>
+<p><strong>Situation&nbsp;2</strong></p>
+<p>If you are using a back office, as explained in the previous section, it is not
+possible to change the administrator of a <span class="caps">MONARC</span> instance or to add a new one.
+Clients databases are separated.<br>
+A simple solution would be to update the email address of the former
+administrator directly in the client database (on the <span class="caps">FO</span> server), with your own
+email address.
+Then you will be able to use the password recovery feature of <span class="caps">MONARC</span>.</p>
         </div>
     </section>
         </div>
@@ -162,11 +182,11 @@ The administrator of the back office should not be responsible of&nbsp;this.</p>
 <li class="list-group-item">
   <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
   <ul class="list-group" id="recentposts">
+    <li class="list-group-item"><a href="../../news/2019/04/24/monarc-281-released/"><span class="caps">MONARC</span> 2.8.1&nbsp;released</a></li>
+    <li class="list-group-item"><a href="../../news/2019/03/01/monarc-280-released/"><span class="caps">MONARC</span> 2.8.0&nbsp;released</a></li>
     <li class="list-group-item"><a href="../../news/2018/11/27/monarc-274-released/"><span class="caps">MONARC</span> 2.7.4&nbsp;released</a></li>
     <li class="list-group-item"><a href="../../news/2018/10/25/monarc-273-released/"><span class="caps">MONARC</span> 2.7.3&nbsp;released</a></li>
     <li class="list-group-item"><a href="../../news/2018/10/08/monarc-272-released/"><span class="caps">MONARC</span> 2.7.2&nbsp;released</a></li>
-    <li class="list-group-item"><a href="../../news/2018/09/07/monarc-271-released/"><span class="caps">MONARC</span> 2.7.1&nbsp;released</a></li>
-    <li class="list-group-item"><a href="../../news/2018/08/22/monarc-270-released/"><span class="caps">MONARC</span> 2.7.0&nbsp;released</a></li>
   </ul>
 </li>
 <!-- End Sidebar/Recent Posts -->
@@ -176,25 +196,16 @@ The administrator of the back office should not be responsible of&nbsp;this.</p>
   <h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
   <ul class="list-group" id="links">
     <li class="list-group-item">
-      <a href="https://my.monarc.lu/" target="_blank">MONARC <i>Cloud</i></a>
+      <a href="https://my.monarc.lu" target="_blank">MONARC <i>Cloud</i></a>
     </li>
     <li class="list-group-item">
-      <a href="https://github.com/monarc-project/MonarcAppFO/wiki/Roadmap" target="_blank">Roadmap</a>
-    </li>
-    <li class="list-group-item">
-      <a href="https://securitymadein.lu" target="_blank">SECURITYMADEIN.LU</a>
-    </li>
-    <li class="list-group-item">
-      <a href="https://c-3.lu" target="_blank">Cybersecurity Competence Center (C3)</a>
-    </li>
-    <li class="list-group-item">
-      <a href="https://open-source-security-software.net/project/MONARC" target="_blank">Freshermeat page</a>
-    </li>
-    <li class="list-group-item">
-      <a href="https://freshcode.club/projects/monarc" target="_blank">freshcode.club page</a>
+      <a href="https://objects.monarc.lu" target="_blank">Objects Sharing Platform</a>
     </li>
     <li class="list-group-item">
       <a href="https://open-source-security-software.net/project/MONARC/releases.atom" target="_blank">Subscribe to the releases</a>
+    </li>
+    <li class="list-group-item">
+      <a href="https://cases.lu" target="_blank">CASES</a>
     </li>
     <li class="list-group-item">
       <a href="https://github.com/monarc-project/MonarcAppFO/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/monarc-project/MonarcAppFO.svg?style=flat-square" /></a>
@@ -214,7 +225,7 @@ The administrator of the back office should not be responsible of&nbsp;this.</p>
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2018 security made in Lëtzebuerg (SMILE) g.i.e.
+         <div class="col-xs-10">&copy; 2019 security made in Lëtzebuerg (SMILE) g.i.e.
             &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>                <p><small>  <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="//i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>

@@ -1,5 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu//feeds/all.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2018-11-27T00:00:00+01:00</updated><entry><title>MONARC 2.7.4 released</title><link href="https://www.monarc.lu/news/2018/11/27/monarc-274-released/" rel="alternate"></link><published>2018-11-27T00:00:00+01:00</published><updated>2018-11-27T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-11-27:/news/2018/11/27/monarc-274-released/</id><summary type="html">&lt;p&gt;Release 2.7.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;fixes.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/all.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2019-04-24T00:00:00+02:00</updated><entry><title>MONARC 2.8.1 released</title><link href="https://www.monarc.lu/news/2019/04/24/monarc-281-released/" rel="alternate"></link><published>2019-04-24T00:00:00+02:00</published><updated>2019-04-24T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-04-24:/news/2019/04/24/monarc-281-released/</id><summary type="html">&lt;p&gt;Release 2.8.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;improvements.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;the dashboard can now be exported to a &lt;span class="caps"&gt;CSV&lt;/span&gt; file or to a presentation file&amp;nbsp;(.pptx).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Dashboard export to presentation file" src="/assets/images/posts/dashboard-export-to-presentation.png#center" title="Dashboard export to presentation file"&gt;&lt;/p&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve the treatment of a risk (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/114"&gt;#114&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Improve risk sheet screen (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/139"&gt;#139&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;the cartography in the dashboard has been&amp;nbsp;improved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Cartography" src="/assets/images/posts/dashboard-cartography.png#center" title="Cartography"&gt;&lt;/p&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Loss of recommendation link (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/150"&gt;#150&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.8.1"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.8.0 released</title><link href="https://www.monarc.lu/news/2019/03/01/monarc-280-released/" rel="alternate"></link><published>2019-03-01T00:00:00+01:00</published><updated>2019-03-01T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-03-01:/news/2019/03/01/monarc-280-released/</id><summary type="html">&lt;p&gt;Release 2.8.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with important changes and new&amp;nbsp;features.&lt;/p&gt;
+&lt;p&gt;The notable changes are described&amp;nbsp;below.&lt;/p&gt;
+&lt;div class="toc"&gt;&lt;span class="toctitle"&gt;Table of contents:&lt;/span&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#new"&gt;New&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#management-of-multiple-security-referentials"&gt;Management of multiple security&amp;nbsp;referentials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#mapping-between-security-referentials"&gt;Mapping between security&amp;nbsp;referentials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#improvements-to-the-statement-of-applicability"&gt;Improvements to the statement of&amp;nbsp;applicability&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#batch-import-of-objects"&gt;Batch import of&amp;nbsp;objects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#new-chart-for-the-dashboard"&gt;New chart for the&amp;nbsp;dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#monarc-objects-sharing-platform"&gt;&lt;span class="caps"&gt;MONARC&lt;/span&gt; Objects Sharing&amp;nbsp;Platform&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#identifying-objects"&gt;Identifying&amp;nbsp;objects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="#enhancement"&gt;Enhancement&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#fix"&gt;Fix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#updating"&gt;Updating&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#training"&gt;Training&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;h4 id="management-of-multiple-security-referentials"&gt;Management of multiple security&amp;nbsp;referentials&lt;/h4&gt;
+&lt;p&gt;We are thrilled to announce that &lt;span class="caps"&gt;MONARC&lt;/span&gt; now supports multiple
+security referentials per analysis. Without limit of&amp;nbsp;number.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Referentials" src="/assets/images/posts/MONARCv2.8-Referentials.png#center" title="Referentials"&gt;&lt;/p&gt;
+&lt;p&gt;After the update to &lt;span class="caps"&gt;MONARC&lt;/span&gt; 2.8 your existing analysis with legacy measures from
+&lt;span class="caps"&gt;MONARC&lt;/span&gt; will by default use the controls from &lt;span class="caps"&gt;ISO&lt;/span&gt;/&lt;span class="caps"&gt;IEC&lt;/span&gt; 27002. Nothing will change
+automatically. Of course you will be able to import new referentials via the
+knowledge base. It&amp;#8217;s the&amp;nbsp;goal.&lt;/p&gt;
+&lt;h4 id="mapping-between-security-referentials"&gt;Mapping between security&amp;nbsp;referentials&lt;/h4&gt;
+&lt;p&gt;Since it is now possible to use several security referentials, having the
+possibility to match security controls seems natural and should be
+straightforward. And as you can see below, it&amp;nbsp;is.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mapping between security referentials" src="/assets/images/posts/MONARCv2.8-ReferentialsMatching.png#center" title="Mapping between security referentials"&gt;&lt;/p&gt;
+&lt;p&gt;A mapping can be created manually via the knowledge base of &lt;span class="caps"&gt;MONARC&lt;/span&gt;, as you can
+see above. Or simply by uploading a mapping shared by the
+community (with a &lt;span class="caps"&gt;CSV&lt;/span&gt; or a &lt;span class="caps"&gt;JSON&lt;/span&gt;&amp;nbsp;file).&lt;/p&gt;
+&lt;p&gt;It is even possible to export your own mapping in a &lt;span class="caps"&gt;CSV&lt;/span&gt;&amp;nbsp;file.&lt;/p&gt;
+&lt;p&gt;When exporting a whole risk analysis you have the opportunity to export the
+statement of applicability which includes the referentials and the mapping you
+have&amp;nbsp;created.&lt;/p&gt;
+&lt;h4 id="improvements-to-the-statement-of-applicability"&gt;Improvements to the statement of&amp;nbsp;applicability&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;It is now possible to filter on a security referential in the statement of&amp;nbsp;applicability;&lt;/li&gt;
+&lt;li&gt;The code of the page has been refactored and loads&amp;nbsp;faster.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Statement of applicability" src="/assets/images/posts/MONARCv2.8-SOA.png#center" title="Statement of applicability"&gt;&lt;/p&gt;
+&lt;h4 id="batch-import-of-objects"&gt;Batch import of&amp;nbsp;objects&lt;/h4&gt;
+&lt;p&gt;You can import new objects in the knowledge base of your
+analysis with a &lt;span class="caps"&gt;CSV&lt;/span&gt;, &lt;span class="caps"&gt;XLXS&lt;/span&gt; or &lt;span class="caps"&gt;JSON&lt;/span&gt; file. This concerns the following&amp;nbsp;objects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;asset&amp;nbsp;types;&lt;/li&gt;
+&lt;li&gt;threats;&lt;/li&gt;
+&lt;li&gt;vulnerabilities;&lt;/li&gt;
+&lt;li&gt;referentials;&lt;/li&gt;
+&lt;li&gt;tags;&lt;/li&gt;
+&lt;li&gt;operational&amp;nbsp;risks.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Import center" src="/assets/images/posts/MONARCv2.8-ImportCenter.png#center" title="Import center"&gt;&lt;/p&gt;
+&lt;h4 id="new-chart-for-the-dashboard"&gt;New chart for the&amp;nbsp;dashboard&lt;/h4&gt;
+&lt;p&gt;A new compliance chart has been&amp;nbsp;added.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Compliance chart" src="/assets/images/posts/MONARCv2.8-ComplianceChart.png#center" title="Compliance chart"&gt;&lt;/p&gt;
+&lt;h4 id="monarc-objects-sharing-platform"&gt;&lt;span class="caps"&gt;MONARC&lt;/span&gt; Objects Sharing&amp;nbsp;Platform&lt;/h4&gt;
+&lt;p&gt;Last but not least, we want to take this opportunity to
+introduce &lt;a href="https://objects.monarc.lu"&gt;&lt;span class="caps"&gt;MOSP&lt;/span&gt;&lt;/a&gt; (&lt;span class="caps"&gt;MONARC&lt;/span&gt; Objects Sharing&amp;nbsp;Platform).&lt;/p&gt;
+&lt;p&gt;Basically &lt;span class="caps"&gt;MOSP&lt;/span&gt; is a platform to create, edit and share valid &lt;span class="caps"&gt;JSON&lt;/span&gt; objects.&lt;br&gt;
+&lt;span class="caps"&gt;MOSP&lt;/span&gt; supports any kind of &lt;span class="caps"&gt;JSON&lt;/span&gt; objects, you just have to specify a &lt;span class="caps"&gt;JSON&lt;/span&gt; schema.
+The instance objects.monarc.lu, operated by &lt;a href="https://www.cases.lu"&gt;&lt;span class="caps"&gt;CASES&lt;/span&gt;&lt;/a&gt;,
+is dedicated to gather security related objects in the first place aimed to be used
+with &lt;span class="caps"&gt;MONARC&lt;/span&gt;. And our instance is &lt;a href="https://objects.monarc.lu/login"&gt;open&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Have a look at the available objects provided by the &lt;span class="caps"&gt;MONARC&lt;/span&gt;&amp;nbsp;project:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://objects.monarc.lu/schema/12"&gt;Security&amp;nbsp;referentials&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://objects.monarc.lu/schema/13"&gt;Security referentials&amp;nbsp;mapping&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can import these objects in &lt;span class="caps"&gt;MONARC&lt;/span&gt;.&lt;/p&gt;
+&lt;h4 id="identifying-objects"&gt;Identifying&amp;nbsp;objects&lt;/h4&gt;
+&lt;p&gt;And now something a little under the hood but &lt;strong&gt;really&lt;/strong&gt; important.
+The release 2.8 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; introduces the usage of UUIDs
+for the &lt;em&gt;referential&lt;/em&gt; and &lt;em&gt;measure&lt;/em&gt; objects
+(we will generalize the use of UUIDs for other relevant&amp;nbsp;objects).  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;UUIDs are crucial&lt;/strong&gt; in order to empower the sharing of&amp;nbsp;objects.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A unique identifier enable to designate an object (asset, threat,
+  referential, etc.), for example independently from its&amp;nbsp;language;&lt;/li&gt;
+&lt;li&gt;Using a common format enable to compare objects of the same kind (same
+  &lt;em&gt;schema&lt;/em&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Our new platform addresses the two points above &lt;strong&gt;and&lt;/strong&gt; promotes the
+sharing of information.&lt;br&gt;
+&lt;span class="caps"&gt;MOSP&lt;/span&gt; also provides an &lt;span class="caps"&gt;API&lt;/span&gt; in order to query it programmatically. This means that
+&lt;span class="caps"&gt;MONARC&lt;/span&gt; will soon be able to retrieve data from &lt;span class="caps"&gt;MOSP&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;You will find more information about &lt;span class="caps"&gt;MOSP&lt;/span&gt; in the
+&lt;a href="/documentation/MOSP-documentation"&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;the code of the page which displays the dashboard has been refactored and
+  loads&amp;nbsp;faster.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed an issue when deleting threat theme &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/143"&gt;#143&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Improved the go back on risk sheet &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/95"&gt;#95&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;some minor bugs concerning the dashboard have been&amp;nbsp;resolved.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;
+instructions.
+This is an important release with database migrations.
+Backup your database&amp;nbsp;first.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.8.0"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We want to thank all contributors and reporters.
+Especially &lt;a href="https://cybersecurite.public.lu/fr/securite-information/mission.html"&gt;&lt;span class="caps"&gt;ANSSI&lt;/span&gt;-&lt;span class="caps"&gt;LU&lt;/span&gt;&lt;/a&gt; for their
+help with the German&amp;nbsp;translations.&lt;/p&gt;
+&lt;h2 id="training"&gt;Training&lt;/h2&gt;
+&lt;p&gt;Do not forget our next &lt;a href="/trainings"&gt;training&lt;/a&gt; in March (which will be given in&amp;nbsp;French).&lt;/p&gt;
+&lt;script type="text/javascript" src="https://PTGAFFQ-modules.xing-events.com/resources/js/amiandoExport.js"&gt;&lt;/script&gt;
+
+&lt;iframe src="https://PTGAFFQ-modules.xing-events.com/PTGAFFQ.html?viewType=iframe&amp;distributionChannel=CHANNEL_IFRAME&amp;language=en&amp;useDefaults=false&amp;resizeIFrame=true" frameborder="0" width="650px" id="_amiandoIFrame3572043"&gt;&lt;p&gt;This page requires frame support. Please use a frame compatible browser to see the ticket sales&amp;nbsp;module.&lt;/p&gt;&lt;p&gt; Try out the &lt;a href="https://en.xing-events.com/"&gt;online event registration system&lt;/a&gt; from &lt;span class="caps"&gt;XING&lt;/span&gt;&amp;nbsp;Events.&lt;/p&gt;&lt;/iframe&gt;
+
+&lt;p&gt;More participants thanks to &lt;a href="https://en.xing-events.com?viralRefId=PTGAFFQ&amp;utm_campaign=ev-PTGAFFQ&amp;utm_medium=viral&amp;utm_source=EventWebsite&amp;utm_content=TextLinkBottom&amp;utm_term=text-link" target="_blank" alt="XING Events" title="XING Events"&gt;online event management solutions&lt;/a&gt; from &lt;span class="caps"&gt;XING&lt;/span&gt;&amp;nbsp;Events.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.7.4 released</title><link href="https://www.monarc.lu/news/2018/11/27/monarc-274-released/" rel="alternate"></link><published>2018-11-27T00:00:00+01:00</published><updated>2018-11-27T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2018-11-27:/news/2018/11/27/monarc-274-released/</id><summary type="html">&lt;p&gt;Release 2.7.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.7.4 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;fixes.&lt;/p&gt;
 &lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed risk target calculation &lt;a href="https://github.com/monarc-project/zm-core/commit/199db6c1a59fe6cfead19bcc63d99c0b52f711aa"&gt;199db6c&lt;/a&gt;;&lt;/li&gt;
@@ -119,7 +263,7 @@ You can still&amp;nbsp;register.&lt;/p&gt;
   version checking is performed thanks to a
   &lt;a href="https://version.monarc.lu/version/MONARC"&gt;dedicated service&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img alt="" src="/assets/images/posts/20180720_143151.png#center" title="Version checking"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Version checking" src="/assets/images/posts/20180720_143151.png#center" title="Version checking"&gt;&lt;/p&gt;
 &lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;the import and export functions have been&amp;nbsp;improved;&lt;/li&gt;
