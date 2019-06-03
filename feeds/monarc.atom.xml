@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2019-04-24T00:00:00+02:00</updated><entry><title>MONARC 2.8.1 released</title><link href="https://www.monarc.lu/news/2019/04/24/monarc-281-released/" rel="alternate"></link><published>2019-04-24T00:00:00+02:00</published><updated>2019-04-24T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-04-24:/news/2019/04/24/monarc-281-released/</id><summary type="html">&lt;p&gt;Release 2.8.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;improvements.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2019-05-28T00:00:00+02:00</updated><entry><title>MONARC 2.8.2 released</title><link href="https://www.monarc.lu/news/2019/05/28/monarc-282-released/" rel="alternate"></link><published>2019-05-28T00:00:00+02:00</published><updated>2019-05-28T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-05-28:/news/2019/05/28/monarc-282-released/</id><summary type="html">&lt;p&gt;Release 2.8.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;improvements.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;the &lt;span class="caps"&gt;MONARC&lt;/span&gt; core objects (assets, threats, vulnerabilities and risks) are now
+  identified with UUIDs. We published the objects on the
+  &lt;a href="https://objects.monarc.lu"&gt;&lt;span class="caps"&gt;MONARC&lt;/span&gt; objects sharing platform&lt;/a&gt;. Risks from
+  the &lt;span class="caps"&gt;CASES&lt;/span&gt; models are also &lt;a href="https://objects.monarc.lu/schema/16"&gt;available&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Assets, threats, vulnerabilities, risks and referentials can be imported
+  in the knowledge base of your analysis from &lt;span class="caps"&gt;MOSP&lt;/span&gt; without leaving the &lt;span class="caps"&gt;MONARC&lt;/span&gt;
+  user&amp;nbsp;interface.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Import a risk from MOSP" src="/assets/images/posts/import_risk_from_MOSP.png#center" title="Import a risk from MOSP"&gt;
+Example with the risk object
+&lt;a href="https://objects.monarc.lu/object/7f9f704b-4f02-11e9-b3ea-0800277f0571"&gt;7f9f704b-4f02-11e9-b3ea-0800277f0571&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding referential afterwards does not update the knowledge base
+  &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/156"&gt;#156&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Import analysis in 2.8.1, exported from 2.7.2, gives errors &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/152"&gt;#152&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Edit label of added Referentials does not work &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/153"&gt;#153&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Problem generating deliverable &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/157"&gt;#157&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Categories are duplicated in import &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/158"&gt;#158&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Getting prob &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; impacts on operational risks &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/161"&gt;#161&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.8.2"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.8.1 released</title><link href="https://www.monarc.lu/news/2019/04/24/monarc-281-released/" rel="alternate"></link><published>2019-04-24T00:00:00+02:00</published><updated>2019-04-24T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-04-24:/news/2019/04/24/monarc-281-released/</id><summary type="html">&lt;p&gt;Release 2.8.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.1 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;improvements.&lt;/p&gt;
 &lt;h3 id="new"&gt;New&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;the dashboard can now be exported to a &lt;span class="caps"&gt;CSV&lt;/span&gt; file or to a presentation file&amp;nbsp;(.pptx).&lt;/li&gt;
