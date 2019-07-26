@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>MONARC 2.0.1 released - MONARC</title>
+    <title>MONARC 2.8.3 released - MONARC</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,18 +10,18 @@
 
     <link href="../../../../../assets/images/monarc-logo.png" rel="icon">
 
-<link rel="canonical" href="../../../../../news/2017/08/28/monarc-201-released/">
+<link rel="canonical" href="../../../../../news/2019/07/26/monarc-283-released/">
 
         <meta name="author" content="security made in Lëtzebuerg (SMILE) g.i.e." />
         <meta name="keywords" content="monarc,new-release" />
-        <meta name="description" content="Release 2.0.1 of MONARC" />
+        <meta name="description" content="Release 2.8.3 of MONARC" />
 
         <meta property="og:site_name" content="MONARC" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="MONARC 2.0.1 released"/>
-        <meta property="og:url" content="../../../../../news/2017/08/28/monarc-201-released/"/>
-        <meta property="og:description" content="Release 2.0.1 of MONARC"/>
-        <meta property="article:published_time" content="2017-08-28" />
+        <meta property="og:title" content="MONARC 2.8.3 released"/>
+        <meta property="og:url" content="../../../../../news/2019/07/26/monarc-283-released/"/>
+        <meta property="og:description" content="Release 2.8.3 of MONARC"/>
+        <meta property="article:published_time" content="2019-07-26" />
             <meta property="article:section" content="monarc" />
             <meta property="article:tag" content="monarc" />
             <meta property="article:tag" content="new-release" />
@@ -88,10 +88,10 @@ MONARC            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="../../../../../news/2017/08/28/monarc-201-released/"
+                    <a href="../../../../../news/2019/07/26/monarc-283-released/"
                        rel="bookmark"
-                       title="Permalink to MONARC 2.0.1 released">
-                        <span class="caps">MONARC</span> 2.0.1&nbsp;released
+                       title="Permalink to MONARC 2.8.3 released">
+                        <span class="caps">MONARC</span> 2.8.3&nbsp;released
                     </a>
                 </h1>
             </header>
@@ -101,7 +101,7 @@ MONARC            </a>
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-08-28T00:00:00+02:00"> lun 28 août 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2019-07-26T00:00:00+02:00"> ven 26 juillet 2019</time>
     </span>
 
 
@@ -115,26 +115,28 @@ MONARC            </a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>Version 2.0.1 of <span class="caps">MONARC</span> has been released including a security fix, multiple
-bug fixes and&nbsp;enhancements.</p>
-<p>You can download the new virtual machine
-<a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.0.1">here</a>.</p>
-<h1 id="enhancement">Enhancement</h1>
+                <p>Version 2.8.3 of <span class="caps">MONARC</span> has been released with several&nbsp;hotfixes.</p>
+<h3 id="enhancement">Enhancement</h3>
 <ul>
-<li>Auto-complete function in the creation of a specific risk&nbsp;(#29)</li>
-<li>Remove the category for operational risk&nbsp;(#26)</li>
-<li>update of the&nbsp;database</li>
-<li>the database of <span class="caps">MONARC</span> is now backed up before an&nbsp;upgrade</li>
+<li>Some improvements in <span class="caps">MOSP</span>&nbsp;import;</li>
+<li>Some improvements in 3rd&nbsp;deliverable;</li>
 </ul>
-<h1 id="fix">Fix</h1>
+<h3 id="fix">Fix</h3>
 <ul>
-<li>Import bug : Format of duedate in recomandation&nbsp;(#30)</li>
-<li>Problem when a label of an impact contains a character such as &#8216;&amp;&#8217; or &#8216;%&#8217;&nbsp;(#24)</li>
-<li>Lost operational risks of assets in library after a snapshot&nbsp;(#25)</li>
-<li>Problem setting a comment in new scale row&nbsp;(#24)</li>
-<li>hash of users&#8217; passwords were exposed through the <span class="caps">API</span> as reported by
-  Thomas <span class="caps">LARCHER</span>, Cyber Security Team of PwC&nbsp;Luxembourg.</li>
+<li><span class="caps">SOA</span> is not imported <a href="https://github.com/monarc-project/MonarcAppFO/issues/166">#166</a>;</li>
+<li>Drag <span class="amp">&amp;</span> drop in risk treatment plan fails after 1 change <a href="https://github.com/monarc-project/MonarcAppFO/issues/166">#167</a>;</li>
+<li>Underscore &#8220;_&#8221; is not considered as a special character in password reset <a href="https://github.com/monarc-project/MonarcAppFO/issues/169">#169</a>;</li>
+<li>Error when duplicating object <a href="https://github.com/monarc-project/MonarcAppFO/issues/171">#171</a>;</li>
+<li>Add objects in model/anr from common <span class="caps">DB</span> <a href="https://github.com/monarc-project/MonarcAppFO/issues/172">#172</a>;</li>
+<li>Composed objects in the library-&gt;position <a href="https://github.com/monarc-project/MonarcAppFO/issues/174">#174</a>;</li>
+<li>Import analysis -&gt; conflict on uuid on objects <a href="https://github.com/monarc-project/MonarcAppFO/issues/175">#175</a>;</li>
+<li><span class="caps">FO</span> &gt; Knowledge base &gt; <span class="caps">OP</span> risks <a href="https://github.com/monarc-project/MonarcAppFO/issues/177">#177</a>;</li>
 </ul>
+<h2 id="updating">Updating</h2>
+<p>To update, check out our
+<a href="http://monarc.lu/documentation/technical-guide/#monarc-update">update</a>&nbsp;instructions.</p>
+<p>You can also download the new virtual machine
+<a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.8.3">here</a>.</p>
             </div>
             <!-- /.entry-content -->
         </article>

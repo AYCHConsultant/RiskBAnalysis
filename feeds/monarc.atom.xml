@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2019-05-28T00:00:00+02:00</updated><entry><title>MONARC 2.8.2 released</title><link href="https://www.monarc.lu/news/2019/05/28/monarc-282-released/" rel="alternate"></link><published>2019-05-28T00:00:00+02:00</published><updated>2019-05-28T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-05-28:/news/2019/05/28/monarc-282-released/</id><summary type="html">&lt;p&gt;Release 2.8.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;improvements.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2019-07-26T00:00:00+02:00</updated><entry><title>MONARC 2.8.3 released</title><link href="https://www.monarc.lu/news/2019/07/26/monarc-283-released/" rel="alternate"></link><published>2019-07-26T00:00:00+02:00</published><updated>2019-07-26T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-07-26:/news/2019/07/26/monarc-283-released/</id><summary type="html">&lt;p&gt;Release 2.8.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;hotfixes.&lt;/p&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Some improvements in &lt;span class="caps"&gt;MOSP&lt;/span&gt;&amp;nbsp;import;&lt;/li&gt;
+&lt;li&gt;Some improvements in 3rd&amp;nbsp;deliverable;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class="caps"&gt;SOA&lt;/span&gt; is not imported &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/166"&gt;#166&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Drag &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; drop in risk treatment plan fails after 1 change &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/166"&gt;#167&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Underscore &amp;#8220;_&amp;#8221; is not considered as a special character in password reset &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/169"&gt;#169&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Error when duplicating object &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/171"&gt;#171&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Add objects in model/anr from common &lt;span class="caps"&gt;DB&lt;/span&gt; &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/172"&gt;#172&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Composed objects in the library-&amp;gt;position &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/174"&gt;#174&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Import analysis -&amp;gt; conflict on uuid on objects &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/175"&gt;#175&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;&lt;span class="caps"&gt;FO&lt;/span&gt; &amp;gt; Knowledge base &amp;gt; &lt;span class="caps"&gt;OP&lt;/span&gt; risks &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/177"&gt;#177&lt;/a&gt;;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.8.3"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.8.2 released</title><link href="https://www.monarc.lu/news/2019/05/28/monarc-282-released/" rel="alternate"></link><published>2019-05-28T00:00:00+02:00</published><updated>2019-05-28T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-05-28:/news/2019/05/28/monarc-282-released/</id><summary type="html">&lt;p&gt;Release 2.8.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.2 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;improvements.&lt;/p&gt;
 &lt;h3 id="new"&gt;New&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;the &lt;span class="caps"&gt;MONARC&lt;/span&gt; core objects (assets, threats, vulnerabilities and risks) are now
