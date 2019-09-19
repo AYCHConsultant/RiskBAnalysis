@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2019-07-26T00:00:00+02:00</updated><entry><title>MONARC 2.8.3 released</title><link href="https://www.monarc.lu/news/2019/07/26/monarc-283-released/" rel="alternate"></link><published>2019-07-26T00:00:00+02:00</published><updated>2019-07-26T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-07-26:/news/2019/07/26/monarc-283-released/</id><summary type="html">&lt;p&gt;Release 2.8.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;hotfixes.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2019-08-23T00:00:00+02:00</updated><entry><title>MONARC 2.9.0 released</title><link href="https://www.monarc.lu/news/2019/08/23/monarc-290-released/" rel="alternate"></link><published>2019-08-23T00:00:00+02:00</published><updated>2019-08-23T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-08-23:/news/2019/08/23/monarc-290-released/</id><summary type="html">&lt;p&gt;Release 2.9.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.9.0 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with two new awaited&amp;nbsp;features.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;each analysis can now integrate a record of processing activities in order
+  to help you in your &lt;span class="caps"&gt;GDPR&lt;/span&gt; compliance&amp;nbsp;efforts;&lt;/li&gt;
+&lt;li&gt;it is now possible to create and manage set of recommendations via the
+  knowledge base of a risk analysis. Like for the security referentials
+  (introduced in version 2.8.0), &lt;span class="caps"&gt;MOSP&lt;/span&gt; can now be used in order to
+  &lt;a href="https://objects.monarc.lu/schema/17"&gt;share recommendations&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Monarc 2.8.3 - invalid datetime format: 1292 &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/179"&gt;#179&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;various minor fixes and&amp;nbsp;improvements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.9.0"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="training"&gt;Training&lt;/h2&gt;
+&lt;p&gt;Do not forget our next &lt;a href="/trainings"&gt;training&lt;/a&gt; in&amp;nbsp;September.&lt;/p&gt;
+&lt;script type="text/javascript" src="https://www.xing-events.com/resources/js/amiandoExport.js"&gt;&lt;/script&gt;
+
+&lt;iframe src="https://VQBPBBW-modules.xing-events.com/VQBPBBW.html?viewType=iframe&amp;distributionChannel=CHANNEL_IFRAME&amp;language=en&amp;useDefaults=false&amp;resizeIFrame=true" frameborder="0" width="650px" id="_amiandoIFrame3806799"&gt;&lt;p&gt;This page requires frame support. Please use a frame compatible browser to see the ticket sales&amp;nbsp;module.&lt;/p&gt;&lt;p&gt; Try out the &lt;a href="https://en.xing-events.com/"&gt;online event registration system&lt;/a&gt; from &lt;span class="caps"&gt;XING&lt;/span&gt;&amp;nbsp;Events.&lt;/p&gt;&lt;/iframe&gt;
+
+&lt;p&gt;More participants thanks to &lt;a href="https://en.xing-events.com?viralRefId=VQBPBBW&amp;utm_campaign=ev-VQBPBBW&amp;utm_medium=viral&amp;utm_source=EventWebsite&amp;utm_content=TextLinkBottom&amp;utm_term=text-link" target="_blank" alt="XING Events" title="XING Events"&gt;online event management solutions&lt;/a&gt; from &lt;span class="caps"&gt;XING&lt;/span&gt;&amp;nbsp;Events.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.8.3 released</title><link href="https://www.monarc.lu/news/2019/07/26/monarc-283-released/" rel="alternate"></link><published>2019-07-26T00:00:00+02:00</published><updated>2019-07-26T00:00:00+02:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2019-07-26:/news/2019/07/26/monarc-283-released/</id><summary type="html">&lt;p&gt;Release 2.8.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.8.3 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;hotfixes.&lt;/p&gt;
 &lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Some improvements in &lt;span class="caps"&gt;MOSP&lt;/span&gt;&amp;nbsp;import;&lt;/li&gt;
