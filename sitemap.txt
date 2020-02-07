@@ -25,7 +25,10 @@ https://www.monarc.lu/documentation/security-considerations/
 https://www.monarc.lu/service/
 https://www.monarc.lu/publications/table-of-comparison-between-monarc-and-different-risk-management-methods/
 https://www.monarc.lu/trainings/
+https://www.monarc.lu/community/users/
 https://www.monarc.lu/community/vulnerability-disclosure/
+https://www.monarc.lu/news/2020/01/31/monarc-2910-released/
+https://www.monarc.lu/news/2020/01/20/monarc-299-released/
 https://www.monarc.lu/news/2020/01/13/monarc-298-released/
 https://www.monarc.lu/news/2020/01/07/monarc-297-released/
 https://www.monarc.lu/news/2019/12/31/monarc-296-released/

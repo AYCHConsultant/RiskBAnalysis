@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2020-01-13T00:00:00+01:00</updated><entry><title>MONARC 2.9.8 released</title><link href="https://www.monarc.lu/news/2020/01/13/monarc-298-released/" rel="alternate"></link><published>2020-01-13T00:00:00+01:00</published><updated>2020-01-13T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2020-01-13:/news/2020/01/13/monarc-298-released/</id><summary type="html">&lt;p&gt;Release 2.9.8 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.9.8 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;fixes.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2020-01-31T00:00:00+01:00</updated><entry><title>MONARC 2.9.10 released</title><link href="https://www.monarc.lu/news/2020/01/31/monarc-2910-released/" rel="alternate"></link><published>2020-01-31T00:00:00+01:00</published><updated>2020-01-31T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2020-01-31:/news/2020/01/31/monarc-2910-released/</id><summary type="html">&lt;p&gt;Release 2.9.10 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.9.10 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several fixes and a new&amp;nbsp;feature.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement tiered indexing in Annex D of final report
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/241"&gt;#241&lt;/a&gt;);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;BackOffice object export error
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/239"&gt;#239&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Import error
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/243"&gt;#243&lt;/a&gt;);&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt; instructions.
+If you are coming from &lt;span class="caps"&gt;MONARC&lt;/span&gt; 2.9.0 please read
+&lt;a href="/news/2019/11/25/monarc-291-released/#updating"&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.9.10"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.9.9 released</title><link href="https://www.monarc.lu/news/2020/01/20/monarc-299-released/" rel="alternate"></link><published>2020-01-20T00:00:00+01:00</published><updated>2020-01-20T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2020-01-20:/news/2020/01/20/monarc-299-released/</id><summary type="html">&lt;p&gt;Release 2.9.9 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.9.9 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several fixes and a new&amp;nbsp;feature.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Give the possibility to administrators to create new account and directly
+  assign a temporary password for the new account
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/236"&gt;#236&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Increase size of the fields related to Record of Processing Activities
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/230"&gt;#230&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Duplication of risks in Deliverable -&amp;gt; appendix D
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/233"&gt;#233&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Error during modification of information risk
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/234"&gt;#234&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;It is no more possible to change the status of a user
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/237"&gt;#237&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, check out our
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt; instructions.
+If you are coming from &lt;span class="caps"&gt;MONARC&lt;/span&gt; 2.9.0 please read
+&lt;a href="/news/2019/11/25/monarc-291-released/#updating"&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.9.9"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.9.8 released</title><link href="https://www.monarc.lu/news/2020/01/13/monarc-298-released/" rel="alternate"></link><published>2020-01-13T00:00:00+01:00</published><updated>2020-01-13T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2020-01-13:/news/2020/01/13/monarc-298-released/</id><summary type="html">&lt;p&gt;Release 2.9.8 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.9.8 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several&amp;nbsp;fixes.&lt;/p&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This release as well as previous releases since 2.9.0 contain(s) important&amp;nbsp;fixes:&lt;/p&gt;
