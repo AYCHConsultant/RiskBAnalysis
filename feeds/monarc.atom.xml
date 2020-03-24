@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2020-01-31T00:00:00+01:00</updated><entry><title>MONARC 2.9.10 released</title><link href="https://www.monarc.lu/news/2020/01/31/monarc-2910-released/" rel="alternate"></link><published>2020-01-31T00:00:00+01:00</published><updated>2020-01-31T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2020-01-31:/news/2020/01/31/monarc-2910-released/</id><summary type="html">&lt;p&gt;Release 2.9.10 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.9.10 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several fixes and a new&amp;nbsp;feature.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>MONARC - monarc</title><link href="https://www.monarc.lu/" rel="alternate"></link><link href="https://www.monarc.lu/feeds/monarc.atom.xml" rel="self"></link><id>https://www.monarc.lu/</id><updated>2020-03-20T00:00:00+01:00</updated><entry><title>MONARC 2.9.12 released</title><link href="https://www.monarc.lu/news/2020/03/20/monarc-2912-released/" rel="alternate"></link><published>2020-03-20T00:00:00+01:00</published><updated>2020-03-20T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2020-03-20:/news/2020/03/20/monarc-2912-released/</id><summary type="html">&lt;p&gt;Release 2.9.12 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.9.12 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several fixes and new&amp;nbsp;features.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;batch import of information risks from csv/xlsx file
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/246"&gt;#246&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="enhancement"&gt;Enhancement&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;use a better encryption method for the export of objects and analysis
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/260"&gt;#260&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Remove comment field of threat in export object of library 
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/245"&gt;#245&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Edition and creation of operational risk linked a tag in use on risk analysis 
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/262"&gt;#262&lt;/a&gt;). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, please follow the instructions guide.
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;If you are coming from &lt;span class="caps"&gt;MONARC&lt;/span&gt; 2.9.0 please read
+&lt;a href="/news/2019/11/25/monarc-291-released/#updating"&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.9.12"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.9.11 released</title><link href="https://www.monarc.lu/news/2020/02/24/monarc-2911-released/" rel="alternate"></link><published>2020-02-24T00:00:00+01:00</published><updated>2020-02-24T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2020-02-24:/news/2020/02/24/monarc-2911-released/</id><summary type="html">&lt;p&gt;Release 2.9.11 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.9.11 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several fixes and a new&amp;nbsp;feature.&lt;/p&gt;
+&lt;h3 id="new"&gt;New&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;added users creation command
+  (&lt;a href="https://github.com/monarc-project/zm-client/pull/27"&gt;&lt;span class="caps"&gt;PR&lt;/span&gt; 27&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;backend has been migrated from Zend Framework to Laminas
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/249"&gt;#249&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The description area of the shelf life is too fair at the character level
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/252"&gt;#252&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;In the description of destinations area; info is not kept after registration
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/253"&gt;#253&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;[&lt;span class="caps"&gt;GDPR&lt;/span&gt; module] Issue when creating a new recipient with default values
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/254"&gt;#254&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;Get the list controls in &lt;span class="caps"&gt;BO&lt;/span&gt;
+  (&lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/256"&gt;#256&lt;/a&gt;);&lt;/li&gt;
+&lt;li&gt;fix: improved performance when drag and dropping assets
+  (&lt;a href="https://github.com/monarc-project/zm-core/commit/ff473d96b51ddbdbcd8e6c59927e59f246b7b67b"&gt;ff473d9&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="updating"&gt;Updating&lt;/h2&gt;
+&lt;p&gt;To update, please follow the instructions guide.
+&lt;a href="http://monarc.lu/documentation/technical-guide/#monarc-update"&gt;update&lt;/a&gt;&amp;nbsp;instructions.&lt;/p&gt;
+&lt;p&gt;If you are coming from &lt;span class="caps"&gt;MONARC&lt;/span&gt; 2.9.0 please read
+&lt;a href="/news/2019/11/25/monarc-291-released/#updating"&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The new version comes with the php framework upgrade. We changed usage of &amp;#8220;Zend Framework 3&amp;#8221; to &amp;#8220;Laminas&amp;#8221;, which is a new official repository of the framework.
+As Zend Framework will not longer be maintained, we had to make the transition as soon as possible. We also recommend to perform the update for&amp;nbsp;you.&lt;/p&gt;
+&lt;p&gt;To be able to install the Laminas framework, it is mandatory to have &amp;#8220;composer&amp;#8221; (php dependency manager) version on your server &amp;gt;= 1.9.0.&lt;br&gt;
+We added the version validation in the update-all.sh script, which will show you a warning message with instructions in case if your &amp;#8220;composer&amp;#8221; version is&amp;nbsp;outdated.&lt;/p&gt;
+&lt;p&gt;Please, contact us in case if you have any issues during the update&amp;nbsp;process.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;You can also download the new virtual machine
+&lt;a href="https://github.com/monarc-project/MonarcAppFO/releases/tag/v2.9.11"&gt;here&lt;/a&gt;.&lt;/p&gt;</content><category term="monarc"></category><category term="new-release"></category></entry><entry><title>MONARC 2.9.10 released</title><link href="https://www.monarc.lu/news/2020/01/31/monarc-2910-released/" rel="alternate"></link><published>2020-01-31T00:00:00+01:00</published><updated>2020-01-31T00:00:00+01:00</updated><author><name>security made in Lëtzebuerg (SMILE) g.i.e.</name></author><id>tag:www.monarc.lu,2020-01-31:/news/2020/01/31/monarc-2910-released/</id><summary type="html">&lt;p&gt;Release 2.9.10 of &lt;span class="caps"&gt;MONARC&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Version 2.9.10 of &lt;span class="caps"&gt;MONARC&lt;/span&gt; has been released with several fixes and a new&amp;nbsp;feature.&lt;/p&gt;
 &lt;h3 id="new"&gt;New&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Implement tiered indexing in Annex D of final report
@@ -246,7 +306,7 @@ will works as&amp;nbsp;usual.&lt;/p&gt;
 &lt;h3 id="fix"&gt;Fix&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;span class="caps"&gt;SOA&lt;/span&gt; is not imported &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/166"&gt;#166&lt;/a&gt;;&lt;/li&gt;
-&lt;li&gt;Drag &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; drop in risk treatment plan fails after 1 change &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/166"&gt;#167&lt;/a&gt;;&lt;/li&gt;
+&lt;li&gt;Drag &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; drop in risk treatment plan fails after 1 change &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/167"&gt;#167&lt;/a&gt;;&lt;/li&gt;
 &lt;li&gt;Underscore &amp;#8220;_&amp;#8221; is not considered as a special character in password reset &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/169"&gt;#169&lt;/a&gt;;&lt;/li&gt;
 &lt;li&gt;Error when duplicating object &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/171"&gt;#171&lt;/a&gt;;&lt;/li&gt;
 &lt;li&gt;Add objects in model/anr from common &lt;span class="caps"&gt;DB&lt;/span&gt; &lt;a href="https://github.com/monarc-project/MonarcAppFO/issues/172"&gt;#172&lt;/a&gt;;&lt;/li&gt;
